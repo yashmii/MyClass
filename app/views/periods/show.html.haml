@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Peroiddescription:
+  = @period.PeroidDescription
+%p
+  %b Group:
+  = @period.group_id
+
+= link_to 'Edit', edit_period_path(@period)
+\|
+= link_to 'Back', periods_path

@@ -1,0 +1,9 @@
+= simple_form_for(@period) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :PeroidDescription
+    = f.association :group
+
+  .form-actions
+    = f.button :submit

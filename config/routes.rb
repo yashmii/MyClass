@@ -5,6 +5,7 @@ Rails.application.routes.draw do root :to => 'dashboard#index'
   resources :groups
   resources :attendances
   resources :lessons
+  resources :periods
 
 
   # The priority is based upon order of creation: first created -> highest priority.
