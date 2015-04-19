@@ -1,0 +1,39 @@
+%h1 Listing clients
+
+%table{:class => "table"}
+  %thead
+    %tr
+      %th First name
+      %th Middle name
+      %th Last name
+      %th Birthdate
+      %th Telephone 1
+      %th Email
+      %th Info
+      %th Photo
+      %th Office
+      %th Language level
+      %th
+      %th
+      %th
+
+  %tbody
+    - @clients.each do |client|
+      %tr
+        %td= client.first_name
+        %td= client.middle_name
+        %td= client.last_name
+        %td= client.birthdate
+        %td= client.telephone_1
+        %td= client.email
+        %td= client.info
+        %td= image_tag client.photo, size: '30x30'
+        %td= client.office_id
+        %td= client.language_level
+        %td= link_to 'Show', client
+        %td= link_to 'Edit', edit_client_path(client)
+        %td= link_to 'Destroy', client, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Client', new_client_path

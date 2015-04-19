@@ -1,0 +1,39 @@
+%h1 Listing groups
+
+%table{:class => "table"}
+  %thead
+    %tr
+      %th Group name
+      %th Teacher
+      %th Language
+      %th Office
+      %th Language level
+      %th Book
+      %th Days
+      %th Time
+      %th Duration
+      %th Info
+      %th
+      %th
+      %th
+
+  %tbody
+    - @groups.each do |group|
+      %tr
+        %td= group.group_name
+        %td= group.teacher_id
+        %td= group.language_id
+        %td= group.office_id
+        %td= group.language_level_id
+        %td= group.book_id
+        %td= group.days
+        %td= group.time
+        %td= group.duration
+        %td= group.info
+        %td= link_to 'Show', group
+        %td= link_to 'Edit', edit_group_path(group)
+        %td= link_to 'Destroy', group, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Group', new_group_path

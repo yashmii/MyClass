@@ -1,0 +1,40 @@
+%p#notice= notice
+
+%p
+  %b First name:
+  = @client.first_name
+%p
+  %b Middle name:
+  = @client.middle_name
+%p
+  %b Last name:
+  = @client.last_name
+%p
+  %b Birthdate:
+  = @client.birthdate
+%p
+  %b Telephone 1:
+  = @client.telephone_1
+%p
+  %b Email:
+  = @client.email
+%p
+  %b Info:
+  = @client.info
+%p
+  %b Photo:
+  = image_tag @client.photo
+%p
+  %b Office:
+  = @client.office_id
+%p
+  %b Language level:
+  = @client.language_level
+
+= link_to 'Edit', edit_client_path(@client)
+\|
+= link_to 'Back', clients_path
+\|
+= link_to 'Previous client', client_path(@client.id - 1)
+\|
+= link_to 'Next client', client_path(@client.id + 1)

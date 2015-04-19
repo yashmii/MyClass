@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Start time:
+  = @lesson.start_time
+%p
+  %b End time:
+  = @lesson.end_time
+
+= link_to 'Edit', edit_lesson_path(@lesson)
+\|
+= link_to 'Back', lessons_path

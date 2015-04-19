@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  group_name: MyString
+  teacher_id: MyString
+  language_id: MyString
+  office_id: MyString
+  language_level_id: MyString
+  book_id: MyString
+  days: MyString
+  time: 2015-04-15 11:05:02
+  duration: 1
+  info: MyText
+
+two:
+  group_name: MyString
+  teacher_id: MyString
+  language_id: MyString
+  office_id: MyString
+  language_level_id: MyString
+  book_id: MyString
+  days: MyString
+  time: 2015-04-15 11:05:02
+  duration: 1
+  info: MyText

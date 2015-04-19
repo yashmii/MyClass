@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Attendance:
+  = @attendance.attendance
+%p
+  %b Client:
+  = @attendance.client_id
+%p
+  %b Lesson:
+  = @attendance.lesson_id
+
+= link_to 'Edit', edit_attendance_path(@attendance)
+\|
+= link_to 'Back', attendances_path

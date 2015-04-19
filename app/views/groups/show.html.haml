@@ -1,0 +1,36 @@
+%p#notice= notice
+
+%p
+  %b Group name:
+  = @group.group_name
+%p
+  %b Teacher:
+  = @group.teacher_id
+%p
+  %b Language:
+  = @group.language_id
+%p
+  %b Office:
+  = @group.office_id
+%p
+  %b Language level:
+  = @group.language_level_id
+%p
+  %b Book:
+  = @group.book_id
+%p
+  %b Days:
+  = @group.days
+%p
+  %b Time:
+  = @group.time
+%p
+  %b Duration:
+  = @group.duration
+%p
+  %b Info:
+  = @group.info
+
+= link_to 'Edit', edit_group_path(@group)
+\|
+= link_to 'Back', groups_path

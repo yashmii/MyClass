@@ -1,0 +1,25 @@
+%h1 Listing attendances
+
+%table{:class => "table"}
+  %thead
+    %tr
+      %th Attendance
+      %th Client
+      %th Lesson
+      %th
+      %th
+      %th
+
+  %tbody
+    - @attendances.each do |attendance|
+      %tr
+        %td= attendance.attendance
+        %td= attendance.client_id
+        %td= attendance.lesson_id
+        %td= link_to 'Show', attendance
+        %td= link_to 'Edit', edit_attendance_path(attendance)
+        %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Attendance', new_attendance_path

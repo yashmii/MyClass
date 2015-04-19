@@ -1,0 +1,17 @@
+= simple_form_for(@group) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :group_name
+    = f.input :teacher_id
+    = f.input :language_id
+    = f.input :office_id
+    = f.input :language_level_id
+    = f.input :book_id
+    = f.input :days
+    = f.input :time
+    = f.input :duration
+    = f.input :info
+
+  .form-actions
+    = f.button :submit

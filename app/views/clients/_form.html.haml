@@ -1,0 +1,17 @@
+= simple_form_for(@client) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :first_name
+    = f.input :middle_name
+    = f.input :last_name
+    = f.date_select :birthdate, :start_year => Time.now.year - 80, :end_year => Time.now.year - 4
+    = f.input :telephone_1
+    = f.input :email
+    = f.input :info
+    = f.input :photo
+    = f.input :office_id
+    = f.input :language_level
+
+  .form-actions
+    = f.button :submit
