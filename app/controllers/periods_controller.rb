@@ -10,6 +10,7 @@ class PeriodsController < ApplicationController
   # GET /periods/1
   # GET /periods/1.json
   def show
+    @lessons = @period.lessons
   end
 
   # GET /periods/new
