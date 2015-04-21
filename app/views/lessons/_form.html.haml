@@ -4,7 +4,7 @@
   .form-inputs
     = f.input :start_time
     = f.input :end_time
-    = f.association :period
+    = f.input :period_id, input_html: {value: params[:period_id]}, as: :hidden
 
   .form-actions
     = f.button :submit
