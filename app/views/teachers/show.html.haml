@@ -1,0 +1,30 @@
+%p#notice= notice
+
+%p
+  %b First name:
+  = @teacher.first_name
+%p
+  %b Middle name:
+  = @teacher.middle_name
+%p
+  %b Last name:
+  = @teacher.last_name
+%p
+  %b Birthdate:
+  = @teacher.birthdate
+%p
+  %b Telephone 1:
+  = @teacher.telephone_1
+%p
+  %b Email:
+  = @teacher.email
+%p
+  %b Info:
+  = @teacher.info
+%p
+  %b Photo:
+  = @teacher.photo
+
+= link_to 'Edit', edit_teacher_path(@teacher)
+\|
+= link_to 'Back', teachers_path

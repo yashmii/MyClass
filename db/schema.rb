@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150419212515) do
+ActiveRecord::Schema.define(version: 20150422121720) do
 
   create_table "attendances", force: true do |t|
     t.string   "attendance"
@@ -62,6 +62,19 @@ ActiveRecord::Schema.define(version: 20150419212515) do
   create_table "periods", force: true do |t|
     t.string   "PeroidDescription"
     t.integer  "group_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "teachers", force: true do |t|
+    t.string   "first_name"
+    t.string   "middle_name"
+    t.string   "last_name"
+    t.date     "birthdate"
+    t.integer  "telephone_1"
+    t.string   "email"
+    t.string   "info"
+    t.string   "photo"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
