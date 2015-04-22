@@ -3,7 +3,7 @@
 
   .form-inputs
     = f.input :PeroidDescription
-    = f.association :group
+    = f.input :group_id, input_html: {value: params[:group_id]}, as: :hidden
 
   .form-actions
     = f.button :submit
