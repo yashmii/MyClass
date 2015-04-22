@@ -10,6 +10,7 @@ class LessonsController < ApplicationController
   # GET /lessons/1
   # GET /lessons/1.json
   def show
+    @attendances = @lesson.attendances
   end
 
   # GET /lessons/new
