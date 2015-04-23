@@ -5,6 +5,7 @@
     %tr
       %th Group name
       %th Teacher
+      %th Language
       %th Office
       %th Book
       %th Days
@@ -19,7 +20,8 @@
     - @groups.each do |group|
       %tr
         %td= group.group_name
-        %td= group.teacher_id
+        %td= group.teacher.last_name
+        %td= group.language.lang
         %td= group.office_id
         %td= group.book_id
         %td= group.days
