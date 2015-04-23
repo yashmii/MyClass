@@ -9,6 +9,9 @@
 %p
   %b Period:
   = @lesson.period_id
+%p
+  %b Teacher:
+  = @lesson.teacher_id
 
 = link_to 'Edit', edit_lesson_path(@lesson)
 \|
