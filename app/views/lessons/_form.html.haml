@@ -6,6 +6,7 @@
     = f.input :end_time
     = f.input :period_id, input_html: {value: params[:period_id]}, as: :hidden
     = f.association :teacher
+    = f.association :classroom
 
   .form-actions
     = f.button :submit
