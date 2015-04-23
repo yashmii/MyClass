@@ -14,7 +14,7 @@
     - @attendances.each do |attendance|
       %tr
         %td= attendance.attendance
-        %td= attendance.client_id
+        %td= attendance.client.last_name
         %td= attendance.lesson_id
         %td= link_to 'Show', attendance
         %td= link_to 'Edit', edit_attendance_path(attendance)

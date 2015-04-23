@@ -34,3 +34,27 @@
 = link_to 'Edit', edit_group_path(@group)
 \|
 = link_to 'Back', groups_path
+
+%h1 Listing periods
+
+%table{:class => "table"}
+  %thead
+    %tr
+      %th Peroiddescription
+      %th Group
+      %th
+      %th
+      %th
+
+  %tbody
+    - @periods.each do |period|
+      %tr
+        %td= period.PeroidDescription
+        %td= period.group_id
+        %td= link_to 'Show', period
+        %td= link_to 'Edit', edit_period_path(period)
+        %td= link_to 'Destroy', period, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Period', new_period_path(group_id: @group.id)

@@ -4,7 +4,7 @@
   .form-inputs
     = f.input :attendance
     = f.association :client
-    = f.association :lesson
+    = f.input :lesson_id, input_html: {value: params[:lesson_id]}, as: :hidden
 
   .form-actions
     = f.button :submit
