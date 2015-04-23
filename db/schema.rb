@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150423120751) do
+ActiveRecord::Schema.define(version: 20150423133658) do
 
   create_table "attendances", force: true do |t|
     t.string   "attendance"
@@ -47,6 +47,12 @@ ActiveRecord::Schema.define(version: 20150423120751) do
     t.time     "time"
     t.integer  "duration"
     t.text     "info"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "languages", force: true do |t|
+    t.string   "lang"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

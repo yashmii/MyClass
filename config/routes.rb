@@ -7,6 +7,7 @@ Rails.application.routes.draw do root :to => 'dashboard#index'
   resources :lessons
   resources :periods
   resources :teachers
+  resources :languages
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
