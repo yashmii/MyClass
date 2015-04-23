@@ -1,6 +1,7 @@
 class Client < ActiveRecord::Base
   has_many :attendances
   has_many :lessons, through: :attendances
+  belongs_to :language
 
   def to_s
     last_name

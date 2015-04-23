@@ -11,6 +11,7 @@
         %td= f.input :info
         %td= f.input :photo
         %td= f.input :office_id
+        %td= f.association :language
 
       .form-actions
         = f.button :submit
@@ -29,6 +30,7 @@
       %th Info
       %th Photo
       %th Office
+      %th Language
       %th
       %th
       %th
@@ -45,6 +47,7 @@
         %td= client.info
         %td= image_tag client.photo, size: '30x30'
         %td= client.office_id
+        %td= client.language_id
         %td= link_to 'Show', client
         %td= link_to 'Edit', edit_client_path(client)
         %td= link_to 'Destroy', client, :method => :delete, :data => { :confirm => 'Are you sure?' }
