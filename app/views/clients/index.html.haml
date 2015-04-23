@@ -1,3 +1,21 @@
+%table{:class => "table"}
+  %tbody
+    = simple_form_for(@client) do |f|
+      %tr
+        %td= f.input :first_name
+        %td= f.input :middle_name
+        %td= f.input :last_name
+        %td= f.date_select :birthdate, :start_year => Time.now.year - 80, :end_year => Time.now.year - 4
+        %td= f.input :telephone_1
+        %td= f.input :email
+        %td= f.input :info
+        %td= f.input :photo
+        %td= f.input :office_id
+        %td= f.input :language_level
+
+      .form-actions
+        = f.button :submit
+
 %h1 Listing clients
 
 %table{:class => "table"}

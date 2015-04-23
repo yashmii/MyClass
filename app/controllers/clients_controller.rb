@@ -1,3 +1,4 @@
+
 class ClientsController < ApplicationController
   before_action :set_client, only: [:show, :edit, :update, :destroy]
 
@@ -5,6 +6,7 @@ class ClientsController < ApplicationController
   # GET /clients.json
   def index
     @clients = Client.all
+    @client = Client.new
   end
 
   # GET /clients/1
@@ -14,7 +16,7 @@ class ClientsController < ApplicationController
 
   # GET /clients/new
   def new
-    @client = Client.new(birthdate: 1992, last_name: "type first name")
+    @client = Client.new
   end
 
  # def neww

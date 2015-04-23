@@ -5,7 +5,7 @@
     = f.input :first_name
     = f.input :middle_name
     = f.input :last_name
-    = f.input :birthdate
+    = f.date_select :birthdate, :start_year => Time.now.year - 60, :end_year => Time.now.year - 18
     = f.input :telephone_1
     = f.input :email
     = f.input :info
