@@ -4,4 +4,5 @@ class Teacher < ActiveRecord::Base
   def to_s
     last_name
   end
+    mount_uploader :photo, PhotoUploader
 end

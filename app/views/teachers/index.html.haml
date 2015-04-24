@@ -25,7 +25,7 @@
         %td= teacher.telephone_1
         %td= teacher.email
         %td= teacher.info
-        %td= teacher.photo
+        %td= image_tag teacher.photo, size: '30x30'
         %td= link_to 'Show', teacher
         %td= link_to 'Edit', edit_teacher_path(teacher)
         %td= link_to 'Destroy', teacher, :method => :delete, :data => { :confirm => 'Are you sure?' }
