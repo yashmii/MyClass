@@ -26,10 +26,10 @@
   = image_tag @client.photo, size: '90x90'
 %p
   %b Office:
-  = @client.office_id
+  = @client.office.name
 %p
   %b Language:
-  = @client.language_id
+  = @client.language.lang
 
 = link_to 'Edit', edit_client_path(@client)
 \|
