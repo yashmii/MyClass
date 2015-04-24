@@ -4,7 +4,7 @@ class Client < ActiveRecord::Base
   belongs_to :language
 
   def to_s
-    last_name
+    first_name+" "+last_name
   end
     mount_uploader :photo, PhotoUploader
   validates :first_name, presence: true
