@@ -1,5 +1,5 @@
 class Lesson < ActiveRecord::Base
-  has_many :attendances
+  has_many :attendances, dependent: :destroy
   has_many :clients, through: :attendances
   belongs_to :period
   belongs_to :teacher

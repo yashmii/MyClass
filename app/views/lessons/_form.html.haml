@@ -4,7 +4,7 @@
   .form-inputs
     = f.input :start_time
     = f.input :end_time
-    = f.input :period_id, input_html: {value: params[:period_id]}, as: :hidden
+    = f.input :period_id, input_html: {value: @lesson.period_id || params[:period_id]}, as: :hidden
     = f.association :teacher
     = f.association :classroom
 
