@@ -43,3 +43,4 @@ gem 'haml'
 gem 'haml-rails'
 gem 'simple_form'
 gem 'carrierwave'
+gem "selectize-rails"

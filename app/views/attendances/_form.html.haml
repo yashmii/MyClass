@@ -3,7 +3,7 @@
 
   .form-inputs
     = f.input :attendance
-    = f.association :client
+    = f.select :client_id, Client.all.map{|c| [c, c.id]}, {},class: 'selectize'
     = f.input :lesson_id, input_html: {value: params[:lesson_id]}, as: :hidden
 
   .form-actions
