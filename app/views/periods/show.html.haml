@@ -22,6 +22,7 @@
       %th End time
       %th Period
       %th Teacher
+      %th Classroom
       %th
       %th
       %th
@@ -33,6 +34,7 @@
         %td= lesson.end_time
         %td= lesson.period_id
         %td= lesson.teacher
+        %td= lesson.classroom
         %td= link_to 'Show', lesson
         %td= link_to 'Edit', edit_lesson_path(lesson)
         %td= link_to 'Destroy', lesson, :method => :delete, :data => { :confirm => 'Are you sure?' }

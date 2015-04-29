@@ -11,14 +11,29 @@
   = @lesson.period_id
 %p
   %b Teacher:
-  = @lesson.teacher_id
+  = @lesson.teacher
 %p
   %b Classroom:
-  = @lesson.classroom_id
+  = @lesson.classroom
 
 = link_to 'Edit', edit_lesson_path(@lesson)
 \|
 = link_to 'Back', lessons_path
+
+
+
+%table{:class => "table"}
+  %tbody
+    = simple_form_for(@attendance) do |f|
+      %tr
+        %td= f.input :attendance
+        %td= f.select :client_id, Client.all.map{|c| [c, c.id]}, {},class: 'selectize'
+        %td= f.input :lesson_id, input_html: {value: params[:lesson_id]}
+
+      .form-actions
+        = f.button :submit
+
+
 
 
 %h1 Listing attendances
