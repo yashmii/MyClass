@@ -48,7 +48,7 @@
         %td= image_tag client.photo, size: '30x30'
         %td= client.office
         %td= client.language
-        %td= link_to 'Show', client
+        %td= link_to 'Show', client, class: 'btn btn-mini btn-success'
         %td= link_to 'Edit', edit_client_path(client)
         %td= link_to 'Destroy', client, :method => :delete, :data => { :confirm => 'Are you sure?' }
 
