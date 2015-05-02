@@ -1,6 +1,6 @@
-%table{:class => "table"}
-  %tbody
-    = simple_form_for(@client) do |f|
+= simple_form_for(@client) do |f|
+  %table{:class => "table"}
+    %tbody
       %tr
         %td= f.input :first_name
         %td= f.input :middle_name
@@ -13,8 +13,8 @@
         %td= f.association :office
         %td= f.association :language
 
-      .form-actions
-        = f.button :submit
+  .form-actions
+    = f.button :submit
 
 %h1 Listing clients
 
