@@ -20,18 +20,16 @@
 \|
 = link_to 'Back', lessons_path
 
-
-
-%table{:class => "table"}
-  %tbody
-    = simple_form_for(@attendance) do |f|
+= simple_form_for(@attendance) do |f|
+  %table{:class => "table"}
+    %tbody
       %tr
         %td= f.input :attendance
         %td= f.select :client_id, Client.all.map{|c| [c, c.id]}, {},class: 'selectize'
-        %td= f.input :lesson_id, input_html: {value: params[:lesson_id]}
+        %td= f.input :lesson_id, input_html: {value: @lesson.id }, as: :hidden
 
-      .form-actions
-        = f.button :submit
+  .form-actions
+    = f.button :submit
 
 
 
