@@ -43,7 +43,6 @@
     %tr
       %th Attendance
       %th Client
-      %th Lesson
       %th
       %th
       %th
@@ -53,7 +52,6 @@
       %tr
         %td= attendance.attendance
         %td= attendance.client.first_name+" "+attendance.client.last_name
-        %td= attendance.lesson_id
         %td= link_to 'Show', attendance
         %td= link_to 'Edit', edit_attendance_path(attendance)
         %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }

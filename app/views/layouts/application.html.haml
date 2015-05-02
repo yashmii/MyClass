@@ -6,7 +6,7 @@
 = javascript_include_tag 'application', 'data-turbolinks-track' => true
 = csrf_meta_tags
 %body
-  %nav.navbar.navbar-inverse
+  %nav.navbar.navbar-inverse.navbar-fixed-top
     .container-fluid
       / Brand and toggle get grouped for better mobile display
       .navbar-header
@@ -45,3 +45,6 @@
   / /.navbar-collapse
   / /.container-fluid
   = yield
+
+
+

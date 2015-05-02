@@ -1,17 +1,20 @@
-= simple_form_for(@client) do |f|
-  = f.error_notification
+%table{:class => "table"}
+  %tbody
+    = simple_form_for(@client) do |f|
+      %tr
+        %td= f.input :first_name
+        %td= f.input :middle_name
+        %td= f.input :last_name
+        %td= f.date_select :birthdate, :start_year => Time.now.year - 80, :end_year => Time.now.year - 4
+        %td= f.input :telephone_1
+        %td= f.input :email
+        %td= f.input :info
+        %td= f.input :photo
+        %td= f.association :office
+        %td= f.association :language
 
-  .form-inputs
-    = f.input :first_name
-    = f.input :middle_name
-    = f.input :last_name
-    = f.date_select :birthdate, :start_year => Time.now.year - 80, :end_year => Time.now.year - 4
-    = f.input :telephone_1
-    = f.input :email
-    = f.input :info
-    = f.input :photo
-    = f.association :office
-    = f.association :language
+      .form-actions
+        = f.button :submit
 
-  .form-actions
-    = f.button :submit
+
+  -#:info, options_for_select([['Mr', 0], ['Mrs', 1]])
