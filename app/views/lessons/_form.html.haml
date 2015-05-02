@@ -5,7 +5,7 @@
     = f.input :start_time
     = f.input :end_time
     = f.input :period_id, input_html: {value: @lesson.period_id || params[:period_id]}, as: :hidden
-    = f.association :teacher
+    = f.select :teacher_id, Teacher.all.map{|c| [c, c.id]}, {},class: 'selectize'
     = f.association :classroom
 
   .form-actions

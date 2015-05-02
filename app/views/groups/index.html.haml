@@ -20,9 +20,9 @@
     - @groups.each do |group|
       %tr
         %td= group.group_name
-        %td= group.teacher.last_name
-        %td= group.language.lang
-        %td= group.office_id
+        %td= group.teacher
+        %td= group.language
+        %td= group.office
         %td= group.book_id
         %td= group.days
         %td= group.time
