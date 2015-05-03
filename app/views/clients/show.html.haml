@@ -1,40 +1,61 @@
-%p#notice= notice
+.container
+  .row
+    .col-md-4
+      %h1 Client info
+      %p#notice= notice
+      %p
+        = image_tag @client.photo, size: '90x90', class: 'img-circle'
+      %p
+        %b First name:
+        = @client.first_name
+      %p
+        %b Middle name:
+        = @client.middle_name
+      %p
+        %b Last name:
+        = @client.last_name
+      %p
+        %b Birthdate:
+        = @client.birthdate
+      %p
+        %b Telephone 1:
+        = @client.telephone_1
+      %p
+        %b Email:
+        = @client.email
+      %p
+        %b Info:
+        = @client.info
+      %p
+        %b Office:
+        = @client.office
+      %p
+        %b Language:
+        = @client.language
 
-%p
-  %b First name:
-  = @client.first_name
-%p
-  %b Middle name:
-  = @client.middle_name
-%p
-  %b Last name:
-  = @client.last_name
-%p
-  %b Birthdate:
-  = @client.birthdate
-%p
-  %b Telephone 1:
-  = @client.telephone_1
-%p
-  %b Email:
-  = @client.email
-%p
-  %b Info:
-  = @client.info
-%p
-  %b Photo:
-  = image_tag @client.photo, size: '90x90', class: 'img-circle'
-%p
-  %b Office:
-  = @client.office
-%p
-  %b Language:
-  = @client.language
+      = link_to 'Edit', edit_client_path(@client)
+      \|
+      = link_to 'Back', clients_path
+      \|
+      = link_to 'Previous client', client_path(@client.id - 1)
+      \|
+      = link_to 'Next client', client_path(@client.id + 1)
+    .col-md-8
+      %h1 Attendances
+      %table{:class => "table"}
+        %thead
+          %tr
+            %th Attendance
+            %th Client
+            %th
+            %th
+            %th
 
-= link_to 'Edit', edit_client_path(@client)
-\|
-= link_to 'Back', clients_path
-\|
-= link_to 'Previous client', client_path(@client.id - 1)
-\|
-= link_to 'Next client', client_path(@client.id + 1)
+        %tbody
+          - @attendances.each do |attendance|
+            %tr
+              %td= attendance.attendance
+              %td= attendance.client.first_name+" "+attendance.client.last_name
+              %td= link_to 'Show', attendance, class: 'btn btn-mini btn-success'
+              %td= link_to 'Edit', edit_attendance_path(attendance), class: 'btn btn-mini btn-warning'
+              %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
