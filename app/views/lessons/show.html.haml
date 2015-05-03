@@ -1,56 +1,60 @@
-%p#notice= notice
+.container
+  .row
+    .col-md-4
+      %h1 Lesson info
+      %p#notice= notice
 
-%p
-  %b Start time:
-  = @lesson.start_time
-%p
-  %b End time:
-  = @lesson.end_time
-%p
-  %b Period:
-  = @lesson.period_id
-%p
-  %b Teacher:
-  = @lesson.teacher
-%p
-  %b Classroom:
-  = @lesson.classroom
+      %p
+        %b Usual start time:
+        = @lesson.start_time
+      %p
+        %b Usual End time:
+        = @lesson.end_time
+      %p
+        %b Period:
+        = @lesson.period_id
+      %p
+        %b Teacher:
+        = @lesson.teacher
+      %p
+        %b Classroom:
+        = @lesson.classroom
 
-= link_to 'Edit', edit_lesson_path(@lesson)
-\|
-= link_to 'Back', lessons_path
+      = link_to 'Edit', edit_lesson_path(@lesson)
+      \|
+      = link_to 'Back', lessons_path
+    .col-md-8
+      %h1 New attendance
+      = simple_form_for(@attendance) do |f|
+        = f.error_notification
 
-= simple_form_for(@attendance) do |f|
-  = f.error_notification
+        .form-inputs
+          = f.input :attendance
+          = f.select :client_id, Client.all.map{|c| [c, c.id]}, {},class: 'selectize'
+          = f.input :lesson_id, input_html: {value: params[:lesson_id]}
+        .form-actions
+          = f.button :submit
 
-  .form-inputs
-    = f.input :attendance
-    = f.select :client_id, Client.all.map{|c| [c, c.id]}, {},class: 'selectize'
-    = f.input :lesson_id, input_html: {value: params[:lesson_id]}, as: :hidden
+      %h1 Listing attendances
 
-  .form-actions
-    = f.button :submit
+      %table{:class => "table"}
+        %thead
+          %tr
+            %th Attendance
+            %th Client
+            %th
+            %th
+            %th
 
-%h1 Listing attendances
+        %tbody
+          - @attendances.each do |attendance|
+            %tr
+              %td= attendance.attendance
+              %td= attendance.client.first_name+" "+attendance.client.last_name
+              %td= link_to 'Show', attendance, class: 'btn btn-mini btn-success'
+              %td= link_to 'Edit', edit_attendance_path(attendance), class: 'btn btn-mini btn-warning'
+              %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 
-%table{:class => "table"}
-  %thead
-    %tr
-      %th Attendance
-      %th Client
-      %th
-      %th
-      %th
+      %br
 
-  %tbody
-    - @attendances.each do |attendance|
-      %tr
-        %td= attendance.attendance
-        %td= attendance.client.first_name+" "+attendance.client.last_name
-        %td= link_to 'Show', attendance
-        %td= link_to 'Edit', edit_attendance_path(attendance)
-        %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }
-
-%br
-
-= link_to 'New Attendance', new_attendance_path(lesson_id: @lesson.id)
+      = link_to 'New Attendance', new_attendance_path(lesson_id: @lesson.id), class: 'btn btn-mini btn-success'

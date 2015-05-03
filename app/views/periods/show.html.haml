@@ -1,44 +1,46 @@
-%p#notice= notice
+.container
+  .row
+    .col-md-4
+      %h1 Period info
+      %p#notice= notice
 
-%p
-  %b Peroiddescription:
-  = @period.PeroidDescription
-%p
-  %b Group:
-  = @period.group_id
+      %p
+        %b Peroiddescription:
+        = @period.PeroidDescription
+      %p
+        %b Group:
+        = @period.group_id
 
-= link_to 'Edit', edit_period_path(@period)
-\|
-= link_to 'Back', periods_path
+      = link_to 'Edit', edit_period_path(@period), class: 'btn btn-mini btn-warning'
+      \|
+      = link_to 'Back', periods_path, class: 'btn btn-mini btn-warning'
 
+    .col-md-8
+      %h1 Listing lessons
+      %table.table.table-hover.table-condensed.table-responsive
+        %thead
+          %tr
+            %th Start time
+            %th End time
+            %th Period
+            %th Teacher
+            %th Classroom
+            %th
+            %th
+            %th
 
+        %tbody
+          - @lessons.each do |lesson|
+            %tr
+              %td= lesson.start_time
+              %td= lesson.end_time
+              %td= lesson.period_id
+              %td= lesson.teacher
+              %td= lesson.classroom
+              %td= link_to 'Show', lesson, class: 'btn btn-mini btn-success'
+              %td= link_to 'Edit', edit_lesson_path(lesson), class: 'btn btn-mini btn-warning'
+              %td= link_to 'Destroy', lesson, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 
-%h1 Listing lessons
+      %br
 
-%table{:class => "table"}
-  %thead
-    %tr
-      %th Start time
-      %th End time
-      %th Period
-      %th Teacher
-      %th Classroom
-      %th
-      %th
-      %th
-
-  %tbody
-    - @lessons.each do |lesson|
-      %tr
-        %td= lesson.start_time
-        %td= lesson.end_time
-        %td= lesson.period_id
-        %td= lesson.teacher
-        %td= lesson.classroom
-        %td= link_to 'Show', lesson
-        %td= link_to 'Edit', edit_lesson_path(lesson)
-        %td= link_to 'Destroy', lesson, :method => :delete, :data => { :confirm => 'Are you sure?' }
-
-%br
-
-= link_to 'New Lesson', new_lesson_path(period_id: @period.id)
+      = link_to 'New Lesson', new_lesson_path(period_id: @period.id), class: 'btn btn-mini btn-success'

@@ -1,57 +1,59 @@
-%p#notice= notice
+.container
+  .row
+    .col-md-4
+      %h1 Group info
+      %p#notice= notice
 
-%p
-  %b Group name:
-  = @group.group_name
-%p
-  %b Teacher:
-  = @group.teacher
-%p
-  %b Language:
-  = @group.language
-%p
-  %b Office:
-  = @group.office
-%p
-  %b Book:
-  = @group.book_id
-%p
-  %b Days:
-  = @group.days
-%p
-  %b Time:
-  = @group.time
-%p
-  %b Duration:
-  = @group.duration
-%p
-  %b Info:
-  = @group.info
+      %p
+        %b Group name:
+        = @group.group_name
+      %p
+        %b Teacher:
+        = @group.teacher
+      %p
+        %b Language:
+        = @group.language
+      %p
+        %b Office:
+        = @group.office
+      %p
+        %b Book:
+        = @group.book_id
+      %p
+        %b Days:
+        = @group.days
+      %p
+        %b Time:
+        = @group.time
+      %p
+        %b Duration:
+        = @group.duration
+      %p
+        %b Info:
+        = @group.info
 
-= link_to 'Edit', edit_group_path(@group)
-\|
-= link_to 'Back', groups_path
+      = link_to 'Edit', edit_group_path(@group), class: 'btn btn-mini btn-warning'
+      \|
+      = link_to 'Back', groups_path, class: 'btn btn-mini btn-warning'
+    .col-md-8
+      %h1 Listing periods
+      %table.table.table-hover.table-condensed.table-responsive
+        %thead
+          %tr
+            %th Peroiddescription
+            %th Group
+            %th
+            %th
+            %th
+        %tbody
+          - @periods.each do |period|
+            %tr
+              %td= period.PeroidDescription
+              %td= period.group_id
+              %td= link_to 'Show', period, class: 'btn btn-mini btn-success'
+              %td= link_to 'Edit', edit_period_path(period), class: 'btn btn-mini btn-warning'
+              %td= link_to 'Destroy', period, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 
-%h1 Listing periods
+      %br
 
-%table{:class => "table"}
-  %thead
-    %tr
-      %th Peroiddescription
-      %th Group
-      %th
-      %th
-      %th
-
-  %tbody
-    - @periods.each do |period|
-      %tr
-        %td= period.PeroidDescription
-        %td= period.group_id
-        %td= link_to 'Show', period
-        %td= link_to 'Edit', edit_period_path(period)
-        %td= link_to 'Destroy', period, :method => :delete, :data => { :confirm => 'Are you sure?' }
-
-%br
-
-= link_to 'New Period', new_period_path(group_id: @group.id)
+      = link_to 'New Period', new_period_path(group_id: @group.id), class: 'btn btn-mini btn-success'
