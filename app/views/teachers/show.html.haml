@@ -1,30 +1,62 @@
-%p#notice= notice
+.container
+  .row
+    .col-md-4
+      %h1 Teacher info
+      %p#notice= notice
 
-%p
-  %b First name:
-  = @teacher.first_name
-%p
-  %b Middle name:
-  = @teacher.middle_name
-%p
-  %b Last name:
-  = @teacher.last_name
-%p
-  %b Birthdate:
-  = @teacher.birthdate
-%p
-  %b Telephone 1:
-  = @teacher.telephone_1
-%p
-  %b Email:
-  = @teacher.email
-%p
-  %b Info:
-  = @teacher.info
-%p
-  %b Photo:
-  = image_tag @teacher.photo, size: '90x90'
+      %p
+        %b First name:
+        = @teacher.first_name
+      %p
+        %b Middle name:
+        = @teacher.middle_name
+      %p
+        %b Last name:
+        = @teacher.last_name
+      %p
+        %b Birthdate:
+        = @teacher.birthdate
+      %p
+        %b Telephone 1:
+        = @teacher.telephone_1
+      %p
+        %b Email:
+        = @teacher.email
+      %p
+        %b Info:
+        = @teacher.info
+      %p
+        %b Photo:
+        = image_tag @teacher.photo, size: '90x90'
 
-= link_to 'Edit', edit_teacher_path(@teacher)
-\|
-= link_to 'Back', teachers_path
+      = link_to 'Edit', edit_teacher_path(@teacher), class: 'btn btn-mini btn-warning'
+      \|
+      = link_to 'Back', teachers_path
+    .col-md-8
+      %h1 Listing lessons
+
+      %table.table.table-hover.table-condensed.table-responsive
+        %thead
+          %tr
+            %th Start time
+            %th End time
+            %th Period
+            %th Teacher
+            %th Classroom
+            %th
+            %th
+            %th
+
+        %tbody
+          - @lessons.each do |lesson|
+            %tr
+              %td= lesson.start_time
+              %td= lesson.end_time
+              %td= lesson.period_id
+              %td= lesson.teacher
+              %td= lesson.classroom
+              %td= link_to 'Show', lesson, class: 'btn btn-mini btn-success'
+              %td= link_to 'Edit', edit_lesson_path(lesson), class: 'btn btn-mini btn-warning'
+              %td= link_to 'Destroy', lesson, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
+
+

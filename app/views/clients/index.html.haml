@@ -17,10 +17,9 @@
 
     .form-actions
       = f.button :submit
-
+    %br
 
   = search_form_for @q do |f|
-    %h6 Search if the name field contains...
     = f.label :last_name_cont
     = f.search_field :last_name_cont
     = f.submit

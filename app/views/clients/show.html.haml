@@ -4,7 +4,9 @@
       %h1 Client info
       %p#notice= notice
       %p
-        = image_tag @client.photo, size: '90x90', class: 'img-circle'
+        = image_tag @client.photo, size: '190x190', class: 'img-circle'
+      %p
+        = link_to 'Edit', edit_client_path(@client), class: 'btn btn-mini btn-warning'
       %p
         %b First name:
         = @client.first_name
@@ -33,7 +35,7 @@
         %b Language:
         = @client.language
 
-      = link_to 'Edit', edit_client_path(@client)
+
       \|
       = link_to 'Back', clients_path
       \|
