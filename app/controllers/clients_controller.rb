@@ -7,6 +7,8 @@ class ClientsController < ApplicationController
   def index
     @clients = Client.all
     @client = Client.new
+    @q = Client.ransack(params[:q])
+    @clients = @q.result(distinct: true)
   end
 
   # GET /clients/1

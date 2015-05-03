@@ -17,14 +17,20 @@
   .form-actions
     = f.button :submit
 
+
+= search_form_for @q do |f|
+  %h6 Search if the name field contains...
+  = f.label :last_name_cont
+  = f.search_field :last_name_cont
+  = f.submit
+
+
 .media
   .media-body
     %table.table.table-hover.table-condensed.table-responsive
       %thead
         %tr
-          %th First name
-          %th Middle name
-          %th Last name
+          %th Full name
           %th Birthdate
           %th Telephone 1
           %th Email
@@ -39,9 +45,7 @@
       %tbody
         - @clients.each do |client|
           %tr
-            %td= client.first_name
-            %td= client.middle_name
-            %td= client.last_name
+            %td= client.first_name+" "+client.middle_name+" "+client.last_name
             %td= client.birthdate
             %td= client.telephone_1
             %td= client.email
