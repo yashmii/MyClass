@@ -1,4 +1,35 @@
-%h1 Dashboard#index
+
+
+= simple_form_for(@post) do |f|
+  = f.error_notification
+  .container
+    %h1 Problems?
+    .form-inputs
+      = f.input :post
+      = f.input :teacher_id
+
+    .form-actions
+      = f.button :submit
+    %h1 Listing problems
+
+    %table.table.table-hover.table-condensed.table-responsive
+      %thead
+        %tr
+          %th Problem
+          %th Troublemaker
+          %th
+          %th
+          %th
+
+      %tbody
+        - @posts.each do |post|
+          %tr
+            %td= post.post
+            %td= post.teacher_id
+            %td= link_to 'Show', post, class: 'btn btn-mini btn-success'
+            %td= link_to 'Edit', edit_post_path(post), class: 'btn btn-mini btn-warning'
+            %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
+
 
 %h1
   = link_to 'Alice', client_path(:id => "2")

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150428224400) do
+ActiveRecord::Schema.define(version: 20150503090113) do
 
   create_table "attendances", force: true do |t|
     t.string   "attendance"
@@ -112,6 +112,13 @@ ActiveRecord::Schema.define(version: 20150428224400) do
   create_table "periods", force: true do |t|
     t.string   "PeroidDescription"
     t.integer  "group_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "posts", force: true do |t|
+    t.string   "post"
+    t.integer  "teacher_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
