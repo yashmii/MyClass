@@ -1,5 +1,6 @@
+%h1 New client
 = simple_form_for(@client) do |f|
-  %table{:class => "table"}
+  %table.table.table-hover.table-condensed.table-responsive
     %tbody
       %tr
         %td= f.input :first_name
@@ -16,42 +17,40 @@
   .form-actions
     = f.button :submit
 
-%h1 Listing clients
+.media
+  .media-body
+    %table.table.table-hover.table-condensed.table-responsive
+      %thead
+        %tr
+          %th First name
+          %th Middle name
+          %th Last name
+          %th Birthdate
+          %th Telephone 1
+          %th Email
+          %th Info
+          %th Photo
+          %th Office
+          %th Language
+          %th
+          %th
+          %th
 
-%table{:class => "table"}
-  %thead
-    %tr
-      %th First name
-      %th Middle name
-      %th Last name
-      %th Birthdate
-      %th Telephone 1
-      %th Email
-      %th Info
-      %th Photo
-      %th Office
-      %th Language
-      %th
-      %th
-      %th
-
-  %tbody
-    - @clients.each do |client|
-      %tr
-        %td= client.first_name
-        %td= client.middle_name
-        %td= client.last_name
-        %td= client.birthdate
-        %td= client.telephone_1
-        %td= client.email
-        %td= client.info
-        %td= image_tag client.photo, size: '30x30'
-        %td= client.office
-        %td= client.language
-        %td= link_to 'Show', client, class: 'btn btn-mini btn-success'
-        %td= link_to 'Edit', edit_client_path(client)
-        %td= link_to 'Destroy', client, :method => :delete, :data => { :confirm => 'Are you sure?' }
+      %tbody
+        - @clients.each do |client|
+          %tr
+            %td= client.first_name
+            %td= client.middle_name
+            %td= client.last_name
+            %td= client.birthdate
+            %td= client.telephone_1
+            %td= client.email
+            %td= client.info
+            %td= image_tag client.photo, size: '30x30'
+            %td= client.office
+            %td= client.language
+            %td= link_to 'Show', client, class: 'btn btn-mini btn-success'
+            %td= link_to 'Edit', edit_client_path(client), class: 'btn btn-mini btn-warning'
+            %td= link_to 'Destroy', client, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 
 %br
-
-= link_to 'New Client', new_client_path

@@ -1,6 +1,6 @@
 %h1 Listing groups
 
-%table{:class => "table"}
+%table.table.table-hover.table-condensed.table-responsive.container-fluid
   %thead
     %tr
       %th Group name
@@ -28,10 +28,6 @@
         %td= group.time
         %td= group.duration
         %td= group.info
-        %td= link_to 'Show', group
-        %td= link_to 'Edit', edit_group_path(group)
-        %td= link_to 'Destroy', group, :method => :delete, :data => { :confirm => 'Are you sure?' }
-
-%br
-
-= link_to 'New Group', new_group_path
+        %td= link_to 'Show', group, class: 'btn btn-mini btn-success'
+        %td= link_to 'Edit', edit_group_path(group), class: 'btn btn-mini btn-warning'
+        %td= link_to 'Destroy', group, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
