@@ -1,14 +1,4 @@
 %h1 Dashboard#index
 
-
-= link_to 'Alice', client_path(:id => "2")
-
-%ul.nav.nav-tabs
-  \...
-  %li.dropdown{:role => "presentation"}
-    %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
-      Dropdown
-      %span.caret
-    %ul.dropdown-menu{:role => "menu"}
-      \...
-  \...
+%h1
+  = link_to 'Alice', client_path(:id => "2")

@@ -35,11 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/dashboard/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95319813">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state vertical-scroll-proportion="-0.30612245">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5591572">
+              <caret line="32" column="51" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -88,17 +98,17 @@
         <option value="$PROJECT_DIR$/app/views/clients/new.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/lessons_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/groups/_form.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/dashboard/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/lessons/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/clients/show.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/clients/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/groups_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/groups/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/dashboard/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/clients/index.html.haml" />
       </list>
     </option>
   </component>
@@ -147,88 +157,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myclass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myclass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myclass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groups" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myclass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myclass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -240,7 +168,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../moodle" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;gem&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;appli&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;applica&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/stylesheets/application.css.scss&#10;rout&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;gemf&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;varia&#9;ACTION&#9;IntroduceVariable&#10;.js&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/javascripts/application.js&#10;otstra&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/initializers/simple_form_bootstrap.rb&#10;eriods/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;che&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;ro&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;esson/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/_form.html.haml&#10;eriod/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/_form.html.haml&#10;eriod.r&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/period.rb&#10;clients&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb&#10;attendances/_form&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/attendances/_form.html.haml&#10;application.js&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/javascripts/application.js&#10;pplication.css&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/stylesheets/application.css.scss&#10;gemfile&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;lesson.rb&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/lesson.rb&#10;lessons/_form&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/_form.html.haml&#10;LESSONS/edit&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/edit.html.haml&#10;lessons/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;datab&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;sche&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;pplica&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;rou&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;ute&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;sc&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;create_less&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/migrate/20150419125220_create_lessons.rb&#10;group_id&#9;null&#9;null&#10;less&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/lesson.rb&#10;lesson&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/lesson.rb&#10;atten&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/attendance.rb&#10;cli&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/client.rb&#10;applicat&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml" />
+    <property name="SearchEverywhereHistoryKey" value="oard/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;ient/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;ppli&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;dashboard/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;app&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;gem&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;appli&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;applica&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/stylesheets/application.css.scss&#10;rout&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;gemf&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;varia&#9;ACTION&#9;IntroduceVariable&#10;.js&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/javascripts/application.js&#10;otstra&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/initializers/simple_form_bootstrap.rb&#10;eriods/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;che&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;ro&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;esson/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/_form.html.haml&#10;eriod/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/_form.html.haml&#10;eriod.r&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/period.rb&#10;clients&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb&#10;attendances/_form&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/attendances/_form.html.haml&#10;application.js&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/javascripts/application.js&#10;pplication.css&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/stylesheets/application.css.scss&#10;gemfile&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;lesson.rb&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/lesson.rb&#10;lessons/_form&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/_form.html.haml&#10;LESSONS/edit&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/edit.html.haml&#10;lessons/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;datab&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;sche&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;pplica&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;rou&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;ute&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;sc&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;create_less&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/migrate/20150419125220_create_lessons.rb&#10;group_id&#9;null&#9;null&#10;less&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/lesson.rb&#10;lesson&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/lesson.rb&#10;atten&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/attendance.rb&#10;cli&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/client.rb&#10;applicat&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml" />
   </component>
   <component name="RunManager" selected="Rails.Development: myclass">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -737,14 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31604537">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58411217">
@@ -765,14 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38897893">
           <caret line="16" column="46" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22528364">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -809,18 +721,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.95319813">
           <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48946515">
+          <caret line="71" column="66" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.30612245">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5591572">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="51" />
           <folding />
         </state>
       </provider>

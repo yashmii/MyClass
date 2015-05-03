@@ -24,14 +24,13 @@
   = f.search_field :last_name_cont
   = f.submit
 
-
 .media
   .media-body
     %table.table.table-hover.table-condensed.table-responsive
       %thead
         %tr
-          %th Full name
-          %th Birthdate
+          %th= sort_link @q, :first_name, "Full name"
+          %th= sort_link @q, :birthdate, "Birthdate"
           %th Telephone 1
           %th Email
           %th Info
