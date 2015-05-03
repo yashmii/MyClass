@@ -7,6 +7,8 @@
         = image_tag @client.photo, size: '190x190', class: 'img-circle'
       %p
         = link_to 'Edit', edit_client_path(@client), class: 'btn btn-mini btn-warning'
+        \|
+        = link_to 'Back', clients_path, class: 'btn btn-mini btn-warning'
       %p
         %b First name:
         = @client.first_name
@@ -34,11 +36,6 @@
       %p
         %b Language:
         = @client.language
-
-
-      \|
-      = link_to 'Back', clients_path
-      \|
       = link_to 'Previous client', client_path(@client.id - 1)
       \|
       = link_to 'Next client', client_path(@client.id + 1)

@@ -3,7 +3,12 @@
     .col-md-4
       %h1 Teacher info
       %p#notice= notice
-
+      %p
+        %b Photo:
+        = image_tag @teacher.photo, size: '90x90'
+      = link_to 'Edit', edit_teacher_path(@teacher), class: 'btn btn-mini btn-warning'
+      \|
+      = link_to 'Back', teachers_path, class: 'btn btn-mini btn-warning'
       %p
         %b First name:
         = @teacher.first_name
@@ -25,13 +30,6 @@
       %p
         %b Info:
         = @teacher.info
-      %p
-        %b Photo:
-        = image_tag @teacher.photo, size: '90x90'
-
-      = link_to 'Edit', edit_teacher_path(@teacher), class: 'btn btn-mini btn-warning'
-      \|
-      = link_to 'Back', teachers_path
     .col-md-8
       %h1 Listing lessons
 
