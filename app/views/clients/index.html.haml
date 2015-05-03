@@ -1,59 +1,62 @@
-%h1 New client
-= simple_form_for(@client) do |f|
-  %table.table.table-hover.table-condensed.table-responsive
-    %tbody
-      %tr
-        %td= f.input :first_name
-        %td= f.input :middle_name
-        %td= f.input :last_name
-        %td= f.date_select :birthdate, :start_year => Time.now.year - 80, :end_year => Time.now.year - 4
-        %td= f.input :telephone_1
-        %td= f.input :email
-        %td= f.input :info
-        %td= f.input :photo
-        %td= f.association :office
-        %td= f.association :language
-
-  .form-actions
-    = f.button :submit
-
-
-= search_form_for @q do |f|
-  %h6 Search if the name field contains...
-  = f.label :last_name_cont
-  = f.search_field :last_name_cont
-  = f.submit
-
-.media
-  .media-body
+.container
+  %h1 New client
+  = simple_form_for(@client) do |f|
     %table.table.table-hover.table-condensed.table-responsive
-      %thead
-        %tr
-          %th= sort_link @q, :first_name, "Full name"
-          %th= sort_link @q, :birthdate, "Birthdate"
-          %th Telephone 1
-          %th Email
-          %th Info
-          %th Photo
-          %th Office
-          %th Language
-          %th
-          %th
-          %th
-
       %tbody
-        - @clients.each do |client|
-          %tr
-            %td= client.first_name+" "+client.middle_name+" "+client.last_name
-            %td= client.birthdate
-            %td= client.telephone_1
-            %td= client.email
-            %td= client.info
-            %td= image_tag client.photo, size: '30x30'
-            %td= client.office
-            %td= client.language
-            %td= link_to 'Show', client, class: 'btn btn-mini btn-success'
-            %td= link_to 'Edit', edit_client_path(client), class: 'btn btn-mini btn-warning'
-            %td= link_to 'Destroy', client, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
+        %tr
+          %td= f.input :first_name
+          %td= f.input :middle_name
+          %td= f.input :last_name
+          %td= f.date_select :birthdate, :start_year => Time.now.year - 80, :end_year => Time.now.year - 4
+          %td= f.input :telephone_1
+          %td= f.input :email
+          %td= f.input :info
+          %td= f.input :photo
+          %td= f.association :office
+          %td= f.association :language
 
-%br
+    .form-actions
+      = f.button :submit
+
+
+  = search_form_for @q do |f|
+    %h6 Search if the name field contains...
+    = f.label :last_name_cont
+    = f.search_field :last_name_cont
+    = f.submit
+
+  .media
+    .media-body
+      %table.table.table-hover.table-condensed.table-responsive
+        %thead
+          %tr
+            %th= sort_link @q, :first_name, "Full name"
+            %th= sort_link @q, :birthdate, "Birthdate"
+            %th Telephone 1
+            %th Email
+            %th Info
+            %th Photo
+            %th Office
+            %th Language
+            %th= sort_link @q, :updated_at, "Last Updated"
+            %th
+            %th
+            %th
+
+        %tbody
+          - @clients.each do |client|
+            %tr
+              %td= client.first_name+" "+client.middle_name+" "+client.last_name
+              %td= client.birthdate
+              %td= client.telephone_1
+              %td= client.email
+              %td= client.info
+              %td= image_tag client.photo, size: '30x30'
+              %td= client.office
+              %td= client.language
+              %td= client.updated_at
+              %td= link_to 'Show', client, class: 'btn btn-mini btn-success'
+              %td= link_to 'Edit', edit_client_path(client), class: 'btn btn-mini btn-warning'
+              %td= link_to 'Destroy', client, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
+
+  %br

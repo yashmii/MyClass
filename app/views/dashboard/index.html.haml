@@ -1,22 +1,20 @@
 .container
   .row
     .col-md-4
-      %h1 Problems?
+      %h1 What to do?
       .add-post
         = simple_form_for(@post) do |f|
           = f.input :post
-          = f.input :teacher_id
-
           .form-actions
             = f.button :submit
     .col-md-8
-      %h1 Listing problems
+      %h1 To-do list
 
       %table.table.table-hover.table-condensed.table-responsive
         %thead
           %tr
-            %th Problem
-            %th Troublemaker
+            %th What's the problem?
+            %th Time created
             %th
             %th
             %th
@@ -25,7 +23,7 @@
           - @posts.each do |post|
             %tr
               %td= post.post
-              %td= post.teacher_id
+              %td= post.created_at
               %td= link_to 'Show', post, class: 'btn btn-mini btn-success'
               %td= link_to 'Edit', edit_post_path(post), class: 'btn btn-mini btn-warning'
               %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
@@ -33,5 +31,5 @@
 
 
 
-%h1
-  = link_to 'Alice', client_path(:id => "2")
+  %h1
+    = link_to 'Alice', client_path(:id => "2")

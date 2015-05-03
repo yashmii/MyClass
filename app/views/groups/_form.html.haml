@@ -1,16 +1,17 @@
-= simple_form_for(@group) do |f|
-  = f.error_notification
+.container
+  = simple_form_for(@group) do |f|
+    = f.error_notification
 
-  .form-inputs
-    = f.input :group_name
-    = f.select :teacher_id, Teacher.all.map{|c| [c, c.id]}, {},class: 'selectize'
-    = f.association :language
-    = f.association :office
-    = f.input :book_id
-    = f.input :days
-    = f.input :time
-    = f.input :duration
-    = f.input :info
+    .form-inputs
+      = f.input :group_name
+      = f.select :teacher_id, Teacher.all.map{|c| [c, c.id]}, {},class: 'selectize'
+      = f.association :language
+      = f.association :office
+      = f.input :book_id
+      = f.input :days
+      = f.input :time
+      = f.input :duration
+      = f.input :info
 
-  .form-actions
-    = f.button :submit
+    .form-actions
+      = f.button :submit

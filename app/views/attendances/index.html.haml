@@ -1,22 +1,23 @@
-%h1 Listing attendances
+.container
+  %h1 Listing attendances
 
-%table{:class => "table"}
-  %thead
-    %tr
-      %th Attendance
-      %th Client
-      %th Lesson
-      %th
-      %th
-      %th
-
-  %tbody
-    - @attendances.each do |attendance|
+  %table.table.table-hover.table-condensed.table-responsive
+    %thead
       %tr
-        %td= attendance.attendance
-        %td= attendance.client.first_name+" "+attendance.client.last_name
-        %td= attendance.lesson_id
-        %td= link_to 'Show', attendance
-        %td= link_to 'Edit', edit_attendance_path(attendance)
-        %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }
+        %th Attendance
+        %th Client
+        %th Lesson
+        %th
+        %th
+        %th
+
+    %tbody
+      - @attendances.each do |attendance|
+        %tr
+          %td= attendance.attendance
+          %td= attendance.client.first_name+" "+attendance.client.last_name
+          %td= attendance.lesson_id
+          %td= link_to 'Show', attendance, class: 'btn btn-mini btn-success'
+          %td= link_to 'Edit', edit_attendance_path(attendance), class: 'btn btn-mini btn-warning'
+          %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 

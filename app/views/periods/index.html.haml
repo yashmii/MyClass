@@ -1,20 +1,21 @@
-%h1 Listing periods
+.container
+  %h1 Listing periods
 
-%table{:class => "table"}
-  %thead
-    %tr
-      %th Peroiddescription
-      %th Group
-      %th
-      %th
-      %th
-
-  %tbody
-    - @periods.each do |period|
+  %table.table.table-hover.table-condensed.table-responsive
+    %thead
       %tr
-        %td= period.PeroidDescription
-        %td= period.group_id
-        %td= link_to 'Show', period
-        %td= link_to 'Edit', edit_period_path(period)
-        %td= link_to 'Destroy', period, :method => :delete, :data => { :confirm => 'Are you sure?' }
+        %th Peroiddescription
+        %th Group
+        %th
+        %th
+        %th
+
+    %tbody
+      - @periods.each do |period|
+        %tr
+          %td= period.PeroidDescription
+          %td= period.group_id
+          %td= link_to 'Show', period, class: 'btn btn-mini btn-success'
+          %td= link_to 'Edit', edit_period_path(period), class: 'btn btn-mini btn-warning'
+          %td= link_to 'Destroy', period, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 

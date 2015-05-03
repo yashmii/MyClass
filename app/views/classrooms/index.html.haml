@@ -1,23 +1,24 @@
-%h1 Listing classrooms
+.container
+  %h1 Listing classrooms
 
-%table{:class => "table"}
-  %thead
-    %tr
-      %th Name
-      %th Office
-      %th
-      %th
-      %th
-
-  %tbody
-    - @classrooms.each do |classroom|
+  %table.table.table-hover.table-condensed.table-responsive
+    %thead
       %tr
-        %td= classroom.name
-        %td= classroom.office_id
-        %td= link_to 'Show', classroom
-        %td= link_to 'Edit', edit_classroom_path(classroom)
-        %td= link_to 'Destroy', classroom, :method => :delete, :data => { :confirm => 'Are you sure?' }
+        %th Name
+        %th Office
+        %th
+        %th
+        %th
 
-%br
+    %tbody
+      - @classrooms.each do |classroom|
+        %tr
+          %td= classroom.name
+          %td= classroom.office_id
+          %td= link_to 'Show', classroom, class: 'btn btn-mini btn-success'
+          %td= link_to 'Edit', edit_classroom_path(classroom), class: 'btn btn-mini btn-warning'
+          %td= link_to 'Destroy', classroom, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 
-= link_to 'New Classroom', new_classroom_path
+  %br
+
+  = link_to 'New Classroom', new_classroom_path, class: 'btn btn-mini btn-success'
