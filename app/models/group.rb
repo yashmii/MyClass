@@ -3,5 +3,7 @@ class Group < ActiveRecord::Base
   belongs_to :teacher
   belongs_to :language
   belongs_to :office
-
+  validates :group_name, presence: true
+  validates :language, presence: true
+  validates :teacher, presence: true
 end

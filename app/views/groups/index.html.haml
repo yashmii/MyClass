@@ -4,10 +4,10 @@
   %table.table.table-hover.table-condensed.table-responsive.container-fluid
     %thead
       %tr
-        %th Group name
-        %th Teacher
-        %th Language
-        %th Office
+        %th= sort_link @q, :group_name, "Group name"
+        %th= sort_link @q, :teacher_id, "Teacher"
+        %th= sort_link @q, :language_id, "Language"
+        %th= sort_link @q, :office_id, "Office"
         %th Book
         %th Days
         %th Time

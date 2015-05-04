@@ -5,6 +5,8 @@ class GroupsController < ApplicationController
   # GET /groups.json
   def index
     @groups = Group.all
+    @q = Group.ransack(params[:q])
+    @groups = @q.result(distinct: true)
   end
 
   # GET /groups/1

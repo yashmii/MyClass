@@ -10,8 +10,8 @@ class Client < ActiveRecord::Base
     mount_uploader :photo, PhotoUploader
   validates :first_name, presence: true
   validates :telephone_1, presence: true
-
-
+  validates :language, presence: true
+  validates :office, presence: true
 
 
 

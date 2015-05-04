@@ -15,8 +15,8 @@
             %th Email
             %th Info
             %th Photo
-            %th Office
-            %th Language
+            %th= sort_link @q, :office_id, "Office"
+            %th= sort_link @q, :language_id, "Language"
             %th= sort_link @q, :updated_at, "Last Updated"
             %th
             %th
