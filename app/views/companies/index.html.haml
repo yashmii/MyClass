@@ -20,7 +20,7 @@
           %td= company.website
           %td= company.phone_number
           %td= company.address
-          %td= company.logo
+          %td= image_tag company.logo, size: '30x30'
           %td= link_to 'Show', company, class: 'btn btn-mini btn-success'
           %td= link_to 'Edit', edit_company_path(company), class: 'btn btn-mini btn-warning'
           %td= link_to 'Destroy', company, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
