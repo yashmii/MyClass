@@ -39,9 +39,11 @@
       = link_to 'Previous client', client_path(@client.id - 1)
       \|
       = link_to 'Next client', client_path(@client.id + 1)
-    .col-md-8
+    .col-md-4
+      %h1 Payments and balance
+    .col-md-4
       %h1 Attendances
-      %table{:class => "table"}
+      %table.table.table-hover.table-condensed.table-responsive
         %thead
           %tr
             %th Attendance

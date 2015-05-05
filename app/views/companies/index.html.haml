@@ -1,0 +1,30 @@
+.container
+  %h1 Listing companies
+
+  %table.table.table-hover.table-condensed.table-responsive
+    %thead
+      %tr
+        %th Company name
+        %th Website
+        %th Phone number
+        %th Address
+        %th Logo
+        %th
+        %th
+        %th
+
+    %tbody
+      - @companies.each do |company|
+        %tr
+          %td= company.company_name
+          %td= company.website
+          %td= company.phone_number
+          %td= company.address
+          %td= company.logo
+          %td= link_to 'Show', company, class: 'btn btn-mini btn-success'
+          %td= link_to 'Edit', edit_company_path(company), class: 'btn btn-mini btn-warning'
+          %td= link_to 'Destroy', company, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
+
+  %br
+
+  = link_to 'New Company', new_company_path
