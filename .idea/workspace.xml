@@ -35,31 +35,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/companies/show.html.haml">
+      <file leaf-file-name="offices_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/offices_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.755102">
-              <caret line="50" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.2">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="show.html.haml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/views/offices/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36790925">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.07293355">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clients_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
+      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/classrooms/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="38" />
+            <state vertical-scroll-proportion="-4.591837">
+              <caret line="15" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/companies/show.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -70,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/models/lesson.rb" />
         <option value="$PROJECT_DIR$/app/views/periods/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/attendances/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/lessons.js.coffee" />
@@ -115,12 +124,13 @@
         <option value="$PROJECT_DIR$/app/views/companies/index.html.haml" />
         <option value="$PROJECT_DIR$/app/models/company.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/offices_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/offices/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/offices/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/clients/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/companies_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/companies/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/offices_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/offices/show.html.haml" />
       </list>
     </option>
   </component>
@@ -214,7 +224,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clients" />
+              <option name="myItemId" value="companies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,7 +272,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ent" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="offices/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;anies/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/show.html.haml&#10;nts/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;photo&#9;null&#9;null&#10;ient/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;applic&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;route&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;ies/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/index.html.haml&#10;ces/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;ard/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;sts/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/posts/index.html.haml&#10;ent/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;gem&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;tion.&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/stylesheets/application.css.scss&#10;ent.&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/client.rb&#10;sts_con&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/posts_controller.rb&#10;appli&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;gemfi&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;oups/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/index.html.haml&#10;ups/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/show.html.haml&#10;app&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;applica&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;ons/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;iod/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;nts/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;oup/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/show.html.haml&#10;her/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/teachers/show.html.haml&#10;essons/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/index.html.haml&#10;ent_co&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb&#10;her_co&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/teachers_controller.rb&#10;her/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/teachers/show.html.haml&#10;her/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/teachers/index.html.haml&#10;ons_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/lessons_controller.rb&#10;ons/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;nt/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;rd/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;routes&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;ppli&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;ients/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;osts/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/posts/_form.html.haml&#10;ost/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/posts/index.html.haml&#10;oard/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;dashboard/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;rout&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;gemf&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;varia&#9;ACTION&#9;IntroduceVariable&#10;.js&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/javascripts/application.js&#10;otstra&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/initializers/simple_form_bootstrap.rb&#10;eriods/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;che&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb" />
+    <property name="SearchEverywhereHistoryKey" value="offices/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/show.html.haml&#10;ces/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/attendances/show.html.haml&#10;offices/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;anies/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/show.html.haml&#10;nts/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;photo&#9;null&#9;null&#10;ient/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;applic&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;route&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;ies/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/index.html.haml&#10;ces/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;ard/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;sts/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/posts/index.html.haml&#10;ent/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;gem&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;tion.&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/stylesheets/application.css.scss&#10;ent.&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/client.rb&#10;sts_con&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/posts_controller.rb&#10;appli&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;gemfi&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;oups/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/index.html.haml&#10;ups/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/show.html.haml&#10;app&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;applica&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;ons/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;iod/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;nts/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;oup/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/show.html.haml&#10;her/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/teachers/show.html.haml&#10;essons/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/index.html.haml&#10;ent_co&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb&#10;her_co&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/teachers_controller.rb&#10;her/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/teachers/show.html.haml&#10;her/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/teachers/index.html.haml&#10;ons_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/lessons_controller.rb&#10;ons/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;nt/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;rd/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;routes&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;ppli&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;ients/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;osts/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/posts/_form.html.haml&#10;ost/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/posts/index.html.haml&#10;oard/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;dashboard/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;rout&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;gemf&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;varia&#9;ACTION&#9;IntroduceVariable&#10;.js&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/javascripts/application.js&#10;otstra&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/initializers/simple_form_bootstrap.rb" />
   </component>
   <component name="RunManager" selected="Rails.Development: myclass">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -473,20 +483,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/clients/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024311183">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/attendances/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048622366">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/dashboard_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.093603745">
@@ -498,13 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.048622366">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/classrooms/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07293355">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -737,14 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/offices_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7893916">
-          <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/companies/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -817,14 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/companies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30421218">
@@ -841,18 +814,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/companies/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.755102">
-          <caret line="50" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6596434">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36790925">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.35101405">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/attendances/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/offices_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/classrooms/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.591837">
+          <caret line="15" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/companies/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/offices/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07293355">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>

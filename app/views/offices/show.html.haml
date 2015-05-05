@@ -1,9 +1,38 @@
-%p#notice= notice
+.container
+  .row
+    .col-md-4
+      %h1 Office info
+      %p#notice= notice
 
-%p
-  %b Name:
-  = @office.name
+      %p
+        %b Name:
+        = @office.name
 
-= link_to 'Edit', edit_office_path(@office)
-\|
-= link_to 'Back', offices_path
+      = link_to 'Edit', edit_office_path(@office)
+      \|
+      = link_to 'Back', offices_path
+
+    .col-md-8
+      %h1 Listing classrooms
+
+      %table.table.table-hover.table-condensed.table-responsive
+        %thead
+          %tr
+            %th Name
+            %th Office
+            %th
+            %th
+            %th
+
+        %tbody
+          - @classrooms.each do |classroom|
+            %tr
+              %td= classroom.name
+              %td= classroom.office_id
+              %td= link_to 'Show', classroom, class: 'btn btn-mini btn-success'
+              %td= link_to 'Edit', edit_classroom_path(classroom), class: 'btn btn-mini btn-warning'
+              %td= link_to 'Destroy', classroom, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
+
+      %br
+
+      = link_to 'New Classroom', new_classroom_path, class: 'btn btn-mini btn-success'
