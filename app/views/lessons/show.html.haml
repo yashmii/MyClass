@@ -31,7 +31,7 @@
         .form-inputs
           = f.input :attendance
           = f.select :client_id, Client.all.map{|c| [c, c.id]}, {},class: 'selectize'
-          = f.input :lesson_id, input_html: {value: @lesson.id}
+          = f.input :lesson_id, input_html: {value: @lesson.id}, as: :hidden
         .form-actions
           = f.button :submit
 
@@ -52,7 +52,7 @@
               %td= attendance.attendance
               %td= attendance.client.first_name+" "+attendance.client.last_name
               %td= link_to 'Show', attendance, class: 'btn btn-mini btn-success'
-              %td= link_to 'Edit', edit_attendance_path(attendance), class: 'btn btn-mini btn-warning'
+              %td= link_to 'Edit', edit_attendance_path(attendance, lesson_id: @lesson.id), class: 'btn btn-mini btn-warning'
               %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 
       %br

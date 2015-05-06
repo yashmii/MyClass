@@ -1,6 +1,35 @@
 .container
   .row
     .col-md-4
+      %h1 Group info
+      %p
+        %b Group name:
+        = @period.group.group_name
+      %p
+        %b Teacher:
+        = @period.group.teacher
+      %p
+        %b Language:
+        = @period.group.language
+      %p
+        %b Office:
+        = @period.group.office
+      %p
+        %b Book:
+        = @period.group.book_id
+      %p
+        %b Days:
+        = @period.group.days
+      %p
+        %b Time:
+        = @period.group.time
+      %p
+        %b Duration:
+        = @period.group.duration
+      %p
+        %b Info:
+        = @period.group.info
+
       %h1 Period info
       %p#notice= notice
 
