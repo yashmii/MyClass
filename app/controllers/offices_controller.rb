@@ -70,6 +70,6 @@ class OfficesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def office_params
-      params.require(:office).permit(:name, :company_id)
+      params.require(:office).permit(:name, :company_id, :phone_number, :address, :email)
     end
 end

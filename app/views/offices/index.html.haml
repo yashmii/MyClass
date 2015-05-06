@@ -6,6 +6,9 @@
       %tr
         %th Name
         %th Company
+        %th Email
+        %th Phone number
+        %th Address
         %th
         %th
         %th
@@ -15,6 +18,9 @@
         %tr
           %td= office.name
           %td= office.company
+          %td= office.email
+          %td= office.phone_number
+          %td= office.address
           %td= link_to 'Show', office, class: 'btn btn-mini btn-success'
           %td= link_to 'Edit', edit_office_path(office), class: 'btn btn-mini btn-warning'
           %td= link_to 'Destroy', office, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'

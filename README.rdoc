@@ -1,21 +1,21 @@
-==:TO:==:DO:==:list:==
+TO DO LIST
 
-::Ransack::
+Ransack
 -) ransack in clients/show for client.attendances
 -) ransack without refreshin page (AJAX?)
 -) ransack by full_name of client
-::Navigation::
+Navigation
 -) in lesson/show when you make attendance.new redirect back to lesson (something to do in attendances_controller)
 -) new period in group/show
 -) new lesson in period/show
 -) fix edit.attendance button in client/show (lesson params = @lesson)
-::Navbar::
+Navbar
 -) fix navbar dropdown
 -) fix global search in navbar
-::Models::
+Models
 -) rails g migration AddAllDeteilsToOffice Office address phone email
 
-::RUBY:
+RUBY
 1) nested resources: period in group. lesson in period. attendance in lesson. maybe
 2) calendar to sync with lesson (lesson=event)
 
