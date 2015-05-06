@@ -13,10 +13,10 @@
 -) fix navbar dropdown
 -) fix global search in navbar
 ::Models::
--) rails g migration address phone email to Office
+-) rails g migration AddAllDeteilsToOffice Office address phone email
 
 ::RUBY:
-1) nested resources: period in group. lesson in period. attendance in lesson.
+1) nested resources: period in group. lesson in period. attendance in lesson. maybe
 2) calendar to sync with lesson (lesson=event)
 
 

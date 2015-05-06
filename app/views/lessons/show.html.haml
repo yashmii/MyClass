@@ -1,7 +1,47 @@
 .container
   .row
     .col-md-4
-      %h1 Lesson info
+      %h3 Group info
+      %p
+        %b Group name:
+        = @lesson.period.group.group_name
+      %p
+        %b Teacher:
+        = @lesson.period.group.teacher
+      %p
+        %b Language:
+        = @lesson.period.group.language
+      %p
+        %b Office:
+        = @lesson.period.group.office
+      %p
+        %b Book:
+        = @lesson.period.group.book_id
+      %p
+        %b Days:
+        = @lesson.period.group.days
+      %p
+        %b Time:
+        = @lesson.period.group.time
+      %p
+        %b Duration:
+        = @lesson.period.group.duration
+      %p
+        %b Info:
+        = @lesson.period.group.info
+
+      %h3 Period info
+      %p#notice= notice
+
+      %p
+        %b Peroiddescription:
+        = @lesson.period.PeroidDescription
+        = @lesson.period.group.group_name
+      %p
+        %b Group:
+        = @lesson.period.group_id
+
+      %h3 Lesson info
       %p#notice= notice
 
       %p
@@ -24,18 +64,23 @@
       \|
       = link_to 'Back', lessons_path
     .col-md-8
-      %h1 New attendance
+      %h3 New attendance
       = simple_form_for(@attendance) do |f|
-        = f.error_notification
-
-        .form-inputs
-          = f.input :attendance
-          = f.select :client_id, Client.all.map{|c| [c, c.id]}, {},class: 'selectize'
-          = f.input :lesson_id, input_html: {value: @lesson.id}, as: :hidden
+        %table{:class => "table"}
+          %thead
+            %tr
+              %td Attendance
+              %td Client
+          %tbody
+            %tr
+              %td= f.input :attendance
+              %td= f.select :client_id, Client.all.map{|c| [c, c.id]}, {},class: 'selectize'
+              %td= f.input :lesson_id, input_html: {value: @lesson.id}, as: :hidden
+              %td heergregrefr
         .form-actions
           = f.button :submit
 
-      %h1 Listing attendances
+      %h3 Listing attendances
 
       %table.table.table-hover.table-condensed.table-responsive
         %thead

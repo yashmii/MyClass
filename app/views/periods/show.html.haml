@@ -1,7 +1,7 @@
 .container
   .row
     .col-md-4
-      %h1 Group info
+      %h3 Group info
       %p
         %b Group name:
         = @period.group.group_name
@@ -30,7 +30,7 @@
         %b Info:
         = @period.group.info
 
-      %h1 Period info
+      %h3 Period info
       %p#notice= notice
 
       %p
@@ -46,7 +46,7 @@
       = link_to 'Back', periods_path, class: 'btn btn-mini btn-warning'
 
     .col-md-8
-      %h1 Listing lessons
+      %h3 Listing lessons
       %table.table.table-hover.table-condensed.table-responsive
         %thead
           %tr
