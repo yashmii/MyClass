@@ -1,28 +1,27 @@
-== README
+==:TO:==:DO:==:list:==
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+::Ransack::
+-) ransack in clients/show for client.attendances
+-) ransack without refreshin page (AJAX?)
+-) ransack by full_name of client
+::Navigation::
+-) in lesson/show when you make attendance.new redirect back to lesson (something to do in attendances_controller)
+-) new period in group/show
+-) new lesson in period/show
+-) fix edit.attendance button in client/show (lesson params = @lesson)
+::Navbar::
+-) fix navbar dropdown
+-) fix global search in navbar
+::Models::
+-) rails g migration address phone email to Office
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+::RUBY:
+1) nested resources: period in group. lesson in period. attendance in lesson.
+2) calendar to sync with lesson (lesson=event)
 
 
-Please feel free to use a different markup language if you do not plan to run
+
+devise, pundit, admin to be added in the end
+
+
 <tt>rake doc:app</tt>.
