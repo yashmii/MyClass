@@ -5,7 +5,7 @@
       %p#notice= notice
       %p
         %b Photo:
-        = image_tag @teacher.photo, size: '90x90'
+        = image_tag @teacher.photo, size: '190x190', class: 'img-circle'
       = link_to 'Edit', edit_teacher_path(@teacher), class: 'btn btn-mini btn-warning'
       \|
       = link_to 'Back', teachers_path, class: 'btn btn-mini btn-warning'
@@ -39,7 +39,6 @@
             %th Start time
             %th Group
             %th Period
-
             %th Classroom
             %th Tarif
             %th
@@ -52,7 +51,6 @@
               %td= lesson.start_time
               %td= lesson.period.group.group_name
               %td= lesson.period_id
-
               %td= lesson.classroom
               %td= lesson.period.tprice.tprice
               %td= link_to 'Show', lesson, class: 'btn btn-mini btn-success'

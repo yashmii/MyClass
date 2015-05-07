@@ -1,25 +1,28 @@
-%h1 Listing tprices
+.container
+  %h3 Listing tprices
 
-%table
-  %thead
-    %tr
-      %th Name
-      %th Tprice
-      %th Active
-      %th
-      %th
-      %th
-
-  %tbody
-    - @tprices.each do |tprice|
+  %table.table.table-hover.table-condensed.table-responsive
+    %thead
       %tr
-        %td= tprice.name
-        %td= tprice.tprice
-        %td= tprice.active
-        %td= link_to 'Show', tprice
-        %td= link_to 'Edit', edit_tprice_path(tprice)
-        %td= link_to 'Destroy', tprice, :method => :delete, :data => { :confirm => 'Are you sure?' }
+        %th Name
+        %th Tprice
+        %th Active
+        %th Created at
+        %th
+        %th
+        %th
 
-%br
+    %tbody
+      - @tprices.each do |tprice|
+        %tr
+          %td= tprice.name
+          %td= tprice.tprice
+          %td= tprice.active
+          %td= tprice.created_at
+          %td= link_to 'Show', tprice, class: 'btn btn-mini btn-success'
+          %td= link_to 'Edit', edit_tprice_path(tprice), class: 'btn btn-mini btn-warning'
+          %td= link_to 'Destroy', tprice, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 
-= link_to 'New Tprice', new_tprice_path
+  %br
+
+  = link_to 'New Tprice', new_tprice_path

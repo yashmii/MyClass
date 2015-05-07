@@ -35,66 +35,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="period.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/period.rb">
+      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/lessons/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tprice.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/tprice.rb">
+      <file leaf-file-name="application.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.3877552">
+              <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="periods_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/periods_controller.rb">
+      <file leaf-file-name="README.rdoc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.84">
-              <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.47297296">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/periods/_form.html.haml">
+      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tprices/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.142857">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/teachers/show.html.haml">
+      <file leaf-file-name="show.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6839546">
-              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-              <folding>
-                <marker date="1430984066187" expanded="true" signature="0:1632" placeholder=".container" />
-                <marker date="1430984066187" expanded="true" signature="13:1632" placeholder=".row" />
-                <marker date="1430984066187" expanded="true" signature="22:736" placeholder=".col-md-4" />
-                <marker date="1430984066187" expanded="true" signature="741:1632" placeholder=".col-md-8" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/groups/_form.html.haml">
+      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,18 +100,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/clients/new.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/dashboard_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/groups/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/groups/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/classrooms/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/periods/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/lessons/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/attendances/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/languages/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/dashboard/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/teachers_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/group.rb" />
@@ -126,7 +118,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/companies/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/clients/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/companies_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/offices/show.html.haml" />
@@ -140,7 +131,6 @@
         <option value="$PROJECT_DIR$/app/views/periods/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/lessons/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/groups/show.html.haml" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/app/controllers/offices_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/offices/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/offices/index.html.haml" />
@@ -155,7 +145,12 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/periods_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/periods/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/lessons/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/tprices/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/teachers/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -279,7 +274,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vistula" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="groups/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/_form.html.haml&#10;ers/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/teachers/show.html.haml&#10;route&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;sche&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;hers/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/teachers/index.html.haml&#10;anies/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/show.html.haml&#10;readme&#9;FILE&#9;file:///home/yashm/sites/MyClass/README.rdoc&#10;readm&#9;FILE&#9;file:///home/yashm/sites/MyClass/README.rdoc&#10;nts_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb&#10;ent/for&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/_form.html.haml&#10;nts/inde&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;nts/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;nts_cont&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb&#10;iods_co&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/periods_controller.rb&#10;ons_co&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/lessons_controller.rb&#10;attendance.rb&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/attendance.rb&#10;ents/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;esson/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;iods/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;iods/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/index.html.haml&#10;period.rb&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/period.rb&#10;oup/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/show.html.haml&#10;sons_co&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/lessons_controller.rb&#10;sons_con&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/periods_controller.rb&#10;essons/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;ods/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;oup/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/index.html.haml&#10;iod_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/periods_controller.rb&#10;ices/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/show.html.haml&#10;ons/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/index.html.haml&#10;rooms/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/classrooms/show.html.haml&#10;classroo&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/classrooms_controller.rb&#10;office_c&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/offices_controller.rb&#10;offices/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/show.html.haml&#10;ces/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/attendances/show.html.haml&#10;offices/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;anies/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/show.html.haml&#10;nts/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;photo&#9;null&#9;null&#10;ient/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;applic&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;ies/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/index.html.haml&#10;ces/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;ard/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;sts/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/posts/index.html.haml&#10;ent/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;gem&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;tion.&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/stylesheets/application.css.scss&#10;ent.&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/client.rb&#10;sts_con&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/posts_controller.rb" />
+    <property name="SearchEverywhereHistoryKey" value="readme&#9;FILE&#9;file:///home/yashm/sites/MyClass/README.rdoc&#10;tion_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/application_controller.rb&#10;ents_cont&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb&#10;ents/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;ents/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;tprices/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/tprices/index.html.haml&#10;applicat&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;sons/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/index.html.haml&#10;groups/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/_form.html.haml&#10;ers/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/teachers/show.html.haml&#10;route&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;sche&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;hers/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/teachers/index.html.haml&#10;anies/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/show.html.haml&#10;readm&#9;FILE&#9;file:///home/yashm/sites/MyClass/README.rdoc&#10;nts_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb&#10;ent/for&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/_form.html.haml&#10;nts/inde&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;nts/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;nts_cont&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb&#10;iods_co&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/periods_controller.rb&#10;ons_co&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/lessons_controller.rb&#10;attendance.rb&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/attendance.rb&#10;ents/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;esson/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;iods/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;iods/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/index.html.haml&#10;period.rb&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/period.rb&#10;oup/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/show.html.haml&#10;sons_co&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/lessons_controller.rb&#10;sons_con&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/periods_controller.rb&#10;essons/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;ods/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;oup/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/index.html.haml&#10;iod_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/periods_controller.rb&#10;ices/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/show.html.haml&#10;ons/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/index.html.haml&#10;rooms/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/classrooms/show.html.haml&#10;classroo&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/classrooms_controller.rb&#10;office_c&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/offices_controller.rb&#10;offices/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/show.html.haml&#10;ces/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/attendances/show.html.haml&#10;offices/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;anies/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/show.html.haml&#10;nts/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;photo&#9;null&#9;null&#10;ient/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/index.html.haml&#10;applic&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;ies/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/index.html.haml&#10;ces/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml" />
   </component>
   <component name="RunManager" selected="Rails.Development: myclass">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -433,7 +428,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23904689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2490392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1614143" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1614143" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24827056" sideWeight="0.5151515" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15229885" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -449,6 +444,28 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3210604" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23904689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24827056" sideWeight="0.5151515" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15229885" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33578792" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2490392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1614143" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -468,13 +485,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -510,14 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.04">
           <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6272285">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,25 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.070202805">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/lesson.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04893964">
           <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/lessons/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8367347">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,14 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25235406">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/attendances/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28248587">
@@ -635,25 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91525424">
-          <caret line="65" column="66" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/clients/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.024311183">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36036035">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -681,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8985959">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/attendances_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50078005">
@@ -699,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25117004">
           <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.4">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6">
           <caret line="6" column="41" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.4">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,19 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/period.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35101405">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,31 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3322314">
           <caret line="131" column="22" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/tprice.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/periods_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.84">
-          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/periods/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.142857">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,16 +768,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/periods/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17017828">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/periods_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85179406">
+          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/tprice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.070202805">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/period.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.070202805">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/teachers/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6839546">
-          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-          <folding>
-            <marker date="1430984066187" expanded="true" signature="0:1632" placeholder=".container" />
-            <marker date="1430984066187" expanded="true" signature="13:1632" placeholder=".row" />
-            <marker date="1430984066187" expanded="true" signature="22:736" placeholder=".col-md-4" />
-            <marker date="1430984066187" expanded="true" signature="741:1632" placeholder=".col-md-8" />
-          </folding>
+        <state vertical-scroll-proportion="0.19448946">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/lessons/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tprices/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.070202805">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14040561">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3877552">
+          <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47297296">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
