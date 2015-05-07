@@ -46,11 +46,10 @@
         %thead
           %tr
             %th Attendance
-            %th Client
+            %th Cprice
             %th Group
             %th Period
             %th Lesson
-            %th
             %th
             %th
 
@@ -58,10 +57,9 @@
           - @attendances.each do |attendance|
             %tr
               %td= attendance.attendance
-              %td= attendance.client.first_name+" "+attendance.client.last_name
+              %td
               %td= attendance.lesson.period.group.group_name
               %td= attendance.lesson.period.PeroidDescription
               %td= attendance.lesson.start_time
-              %td= link_to 'Show', attendance, class: 'btn btn-mini btn-success'
               %td= link_to 'Edit', edit_attendance_path(attendance), class: 'btn btn-mini btn-warning'
               %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'

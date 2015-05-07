@@ -6,6 +6,7 @@
       %tr
         %th Peroiddescription
         %th Group
+        %th Tprice
         %th
         %th
         %th
@@ -14,7 +15,8 @@
       - @periods.each do |period|
         %tr
           %td= period.PeroidDescription
-          %td= period.group_id
+          %td= period.group
+          %td= period.tprice
           %td= link_to 'Show', period, class: 'btn btn-mini btn-success'
           %td= link_to 'Edit', edit_period_path(period), class: 'btn btn-mini btn-warning'
           %td= link_to 'Destroy', period, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'

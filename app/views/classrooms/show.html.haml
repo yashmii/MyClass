@@ -5,11 +5,11 @@
       %p#notice= notice
 
       %p
-        %b Name:
+        %b Classroom name:
         = @classroom.name
       %p
         %b Office:
-        = @classroom.office_id
+        = @classroom.office
 
       = link_to 'Edit', edit_classroom_path(@classroom)
       \|
