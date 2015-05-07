@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @tprice.name
+%p
+  %b Tprice:
+  = @tprice.tprice
+%p
+  %b Active:
+  = @tprice.active
+
+= link_to 'Edit', edit_tprice_path(@tprice)
+\|
+= link_to 'Back', tprices_path

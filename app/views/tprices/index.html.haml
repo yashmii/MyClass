@@ -1,0 +1,25 @@
+%h1 Listing tprices
+
+%table
+  %thead
+    %tr
+      %th Name
+      %th Tprice
+      %th Active
+      %th
+      %th
+      %th
+
+  %tbody
+    - @tprices.each do |tprice|
+      %tr
+        %td= tprice.name
+        %td= tprice.tprice
+        %td= tprice.active
+        %td= link_to 'Show', tprice
+        %td= link_to 'Edit', edit_tprice_path(tprice)
+        %td= link_to 'Destroy', tprice, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Tprice', new_tprice_path

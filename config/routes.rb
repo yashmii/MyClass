@@ -12,6 +12,7 @@ Rails.application.routes.draw do root :to => 'dashboard#index'
   resources :classrooms
   resources :offices
   resources :posts
+  resources :tprices
 
 
   # The priority is based upon order of creation: first created -> highest priority.

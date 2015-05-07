@@ -37,10 +37,11 @@
         %thead
           %tr
             %th Start time
-            %th End time
+            %th Group
             %th Period
-            %th Teacher
+
             %th Classroom
+            %th Tarif
             %th
             %th
             %th
@@ -49,10 +50,11 @@
           - @lessons.each do |lesson|
             %tr
               %td= lesson.start_time
-              %td= lesson.end_time
+              %td= lesson.period.group.group_name
               %td= lesson.period_id
-              %td= lesson.teacher
+
               %td= lesson.classroom
+              %td= lesson.period.tprice.tprice
               %td= link_to 'Show', lesson, class: 'btn btn-mini btn-success'
               %td= link_to 'Edit', edit_lesson_path(lesson), class: 'btn btn-mini btn-warning'
               %td= link_to 'Destroy', lesson, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
