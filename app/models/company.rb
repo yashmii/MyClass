@@ -4,4 +4,5 @@ class Company < ActiveRecord::Base
     company_name
   end
    mount_uploader :logo, LogoUploader
+  validates :company_name, presence: true
 end

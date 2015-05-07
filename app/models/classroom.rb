@@ -4,4 +4,6 @@ class Classroom < ActiveRecord::Base
   def to_s
     name
   end
+  validates :name, presence: true
+  validates :office, presence: true
 end

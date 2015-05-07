@@ -6,4 +6,6 @@ class Office < ActiveRecord::Base
   def to_s
     name
   end
+  validates :name, presence: true
+  validates :company, presence: true
 end

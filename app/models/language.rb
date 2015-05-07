@@ -4,4 +4,5 @@ class Language < ActiveRecord::Base
   def to_s
     lang
   end
+  validates :lang, presence: true
 end
