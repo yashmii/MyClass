@@ -1,8 +1,8 @@
-%h1 Editing attendance
+.container
+  %h1 Editing attendance
 
-= render 'form'
-%br
-= link_to 'Back', attendances_path
-
-%h1 link to :client
-%h1 link to :lesson
+  = render 'form'
+  %br
+  = link_to 'Back to client', client_path(@attendance.client), class: 'btn btn-mini btn-warning'
+  \|
+  = link_to 'Back to lesson', lesson_path(@attendance.lesson), class: 'btn btn-mini btn-warning'

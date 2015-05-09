@@ -61,5 +61,5 @@
               %td= attendance.lesson.period.group.group_name
               %td= attendance.lesson.period.PeroidDescription
               %td= attendance.lesson.start_time
-              %td= link_to 'Edit', edit_attendance_path(attendance), class: 'btn btn-mini btn-warning'
+              %td= link_to 'Edit', edit_attendance_path(attendance, lesson_id: attendance.lesson_id), class: 'btn btn-mini btn-warning'
               %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
