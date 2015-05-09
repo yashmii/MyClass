@@ -4,4 +4,9 @@ $(document).ready(function(){
             sortField: 'text'
         });
     }
+
+    $('#calendar').fullCalendar({
+    // put your options and callbacks here
+        lang: 'pl'
+    });
 });
