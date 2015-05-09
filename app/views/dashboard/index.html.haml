@@ -27,11 +27,9 @@
               %td= link_to 'Show', post, class: 'btn btn-mini btn-success'
               %td= link_to 'Edit', edit_post_path(post), class: 'btn btn-mini btn-warning'
               %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
-
+      %div#calendar
 
 
 
   %h1
     = link_to 'Alice', client_path(:id => "2")
-.container
-  %div#calendar

@@ -1,24 +1,29 @@
 TO DO LIST
 
-Ransack
 ransack in clients/show for client.attendances
+
 ransack without refreshin page (AJAX?)
+
 ransack by full_name of client
-ransack by client.last_name and group.group_name in navbar
-UserExperience
+
+ransack by client--full_name and group.group_name in navbar
+
 Gem ice_cube to add multiple lessons (lesson belongs to period, *period_id)
-in lesson/show when you make attendance.new redirect back to lesson (something to do in attendances_controller in the "save" part)
+
 new period in group/show
+
 new lesson in period/show
-fix edit.attendance button in client/show (something like "lesson params = @lesson")
-add time zones, change datetime in forms and views
+
+add time zones
+
+change datetime in forms and views
+
 fix navbar dropdown
-Models
-RUBY
-1) nested resources: period in group. lesson in period. attendance in lesson. maybe
-2) calendar to sync with lesson (lesson=event)
+
+nested resources: period in group. lesson in period. attendance in lesson. maybe
+
+calendar to sync with lesson (lesson=event)
 
 devise, pundit, admin to be added "only" in the "end of the project"
-
 
 <tt>rake doc:app</tt>.
