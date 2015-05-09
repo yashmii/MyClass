@@ -1,9 +1,12 @@
 = simple_form_for(@lesson) do |f|
   = f.error_notification
 
-  .form-inputs
-    = f.input :start_time
-    = f.input :end_time
+  .field
+    = f.label :start_at
+    = f.datetime_select :start_time
+  .field
+    = f.label :ends_at
+    = f.datetime_select :end_time
     = f.input :period_id, input_html: {value: @lesson.period_id || params[:period_id]}, as: :hidden
     = f.select :teacher_id, Teacher.all.map{|c| [c, c.id]}, {},class: 'selectize'
     = f.association :classroom
