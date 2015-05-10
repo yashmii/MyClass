@@ -45,11 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/languages/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1458671">
+            <state vertical-scroll-proportion="-1.8367347">
               <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9126365">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -252,7 +262,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vistula" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="languages/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/languages/index.html.haml&#10;appl&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;dashboard/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;oms/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/classrooms/index.html.haml&#10;ces/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/show.html.haml&#10;rooms/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/classrooms/_form.html.haml&#10;ices/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/_form.html.haml&#10;iods/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/_form.html.haml&#10;oups/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/show.html.haml&#10;anies/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/show.html.haml&#10;ices/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;eriods/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/index.html.haml&#10;ices/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;ance/edi&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/attendances/edit.html.haml&#10;ents/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;route&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;osts_con&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/posts_controller.rb&#10;ain.js&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/javascripts/main.js&#10;adme&#9;FILE&#9;file:///home/yashm/sites/MyClass/README.rdoc&#10;sson/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/index.html.haml&#10;iods/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;nces_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/attendances_controller.rb&#10;board/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;schema.r&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;period&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/period.rb&#10;iods/_f&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/_form.html.haml&#10;iods/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/index.html.haml&#10;ances_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/attendances_controller.rb&#10;ance/edit&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;schema&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;sons/_f&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/_form.html.haml&#10;oard/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;gem&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;ances_cont&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/attendances_controller.rb&#10;sts_con&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/posts_controller.rb&#10;room/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/classrooms/show.html.haml&#10;iods/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;eriods/ed&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/edit.html.haml&#10;group.rb&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/group.rb&#10;iod/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/index.html.haml&#10;tprice_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/tprices_controller.rb&#10;tprice.rb&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/tprice.rb&#10;ups/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/show.html.haml&#10;sson/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;ces/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/attendances/index.html.haml&#10;ces_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/attendances_controller.rb&#10;readme&#9;FILE&#9;file:///home/yashm/sites/MyClass/README.rdoc&#10;tion_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/application_controller.rb&#10;ents_cont&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb&#10;ents/s&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml" />
+    <property name="SearchEverywhereHistoryKey" value="hem&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;languages/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/languages/index.html.haml&#10;appl&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/layouts/application.html.haml&#10;dashboard/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;oms/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/classrooms/index.html.haml&#10;ces/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/show.html.haml&#10;rooms/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/classrooms/_form.html.haml&#10;ices/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/_form.html.haml&#10;iods/_&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/_form.html.haml&#10;oups/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/show.html.haml&#10;anies/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/companies/show.html.haml&#10;ices/i&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;eriods/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/index.html.haml&#10;ices/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/offices/index.html.haml&#10;ance/edi&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/attendances/edit.html.haml&#10;ents/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/clients/show.html.haml&#10;route&#9;FILE&#9;file:///home/yashm/sites/MyClass/config/routes.rb&#10;osts_con&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/posts_controller.rb&#10;ain.js&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/assets/javascripts/main.js&#10;adme&#9;FILE&#9;file:///home/yashm/sites/MyClass/README.rdoc&#10;sson/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/index.html.haml&#10;iods/sh&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;nces_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/attendances_controller.rb&#10;board/in&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;schema.r&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;period&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/period.rb&#10;iods/_f&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/_form.html.haml&#10;iods/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/index.html.haml&#10;ances_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/attendances_controller.rb&#10;ance/edit&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;schema&#9;FILE&#9;file:///home/yashm/sites/MyClass/db/schema.rb&#10;sons/_f&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/_form.html.haml&#10;oard/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/dashboard/index.html.haml&#10;gem&#9;FILE&#9;file:///home/yashm/sites/MyClass/Gemfile&#10;ances_cont&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/attendances_controller.rb&#10;sts_con&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/posts_controller.rb&#10;room/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/classrooms/show.html.haml&#10;iods/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/show.html.haml&#10;eriods/ed&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/edit.html.haml&#10;group.rb&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/group.rb&#10;iod/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/periods/index.html.haml&#10;tprice_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/tprices_controller.rb&#10;tprice.rb&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/models/tprice.rb&#10;ups/show&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/groups/show.html.haml&#10;sson/sho&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/lessons/show.html.haml&#10;ces/ind&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/views/attendances/index.html.haml&#10;ces_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/attendances_controller.rb&#10;readme&#9;FILE&#9;file:///home/yashm/sites/MyClass/README.rdoc&#10;tion_contr&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/application_controller.rb&#10;ents_cont&#9;FILE&#9;file:///home/yashm/sites/MyClass/app/controllers/clients_controller.rb" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -617,6 +627,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,14 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,8 +838,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/languages/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1458671">
+        <state vertical-scroll-proportion="-1.8367347">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9126365">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>

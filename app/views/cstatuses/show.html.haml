@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Cstatus:
+  = @cstatus.cstatus
+
+= link_to 'Edit', edit_cstatus_path(@cstatus)
+\|
+= link_to 'Back', cstatuses_path
