@@ -3,6 +3,7 @@ class Client < ActiveRecord::Base
   has_many :lessons, through: :attendances
   belongs_to :language
   belongs_to :office
+  belongs_to :cstatus
 
   def to_s
     first_name+" "+last_name

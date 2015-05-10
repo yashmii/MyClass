@@ -10,6 +10,9 @@
         \|
         = link_to 'Back', clients_path, class: 'btn btn-mini btn-warning'
       %p
+        %b Status:
+        = @client.cstatus
+      %p
         %b First name:
         = @client.first_name
       %p
