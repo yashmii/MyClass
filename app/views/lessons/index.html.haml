@@ -26,3 +26,5 @@
           %td= link_to 'Show', lesson, class: 'btn btn-mini btn-success'
           %td= link_to 'Edit', edit_lesson_path(lesson), class: 'btn btn-mini btn-warning'
           %td= link_to 'Destroy', lesson, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
+
+  = will_paginate @lessons
