@@ -4,7 +4,6 @@
   .form-inputs
     = f.input :PeroidDescription
     = f.input :group_id, input_html: {value: @period.group_id || params[:group_id]}, as: :hidden
-    = f.input :tprice, collection: Tprice.where(active: true)
-
+    = f.association :tprice
   .form-actions
     = f.button :submit

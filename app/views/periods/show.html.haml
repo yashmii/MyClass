@@ -36,10 +36,9 @@
       %p
         %b Peroiddescription:
         = @period.PeroidDescription
-        = @period.group.group_name
       %p
         %b Group:
-        = @period.group_id
+        = @period.group.group_name
 
       = link_to 'Edit', edit_period_path(@period), class: 'btn btn-mini btn-warning'
       \|

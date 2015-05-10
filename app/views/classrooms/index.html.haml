@@ -1,11 +1,12 @@
 .container
-  %h1 Listing classrooms
+  %h3 Listing rooms
 
   %table.table.table-hover.table-condensed.table-responsive
     %thead
       %tr
         %th Name
         %th Office
+        %th Company
         %th
         %th
         %th
@@ -14,7 +15,8 @@
       - @classrooms.each do |classroom|
         %tr
           %td= classroom.name
-          %td= classroom.office_id
+          %td= classroom.office
+          %td= classroom.office.company
           %td= link_to 'Show', classroom, class: 'btn btn-mini btn-success'
           %td= link_to 'Edit', edit_classroom_path(classroom), class: 'btn btn-mini btn-warning'
           %td= link_to 'Destroy', classroom, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'

@@ -1,7 +1,7 @@
 .container
   .row
     .col-md-4
-      %h1 Office info
+      %h3 Office info
       %p#notice= notice
 
       %p
@@ -13,7 +13,7 @@
       = link_to 'Back', offices_path
 
     .col-md-8
-      %h1 Listing classrooms
+      %h3 Listing rooms
 
       %table.table.table-hover.table-condensed.table-responsive
         %thead
@@ -35,4 +35,4 @@
 
       %br
 
-      = link_to 'New Classroom', new_classroom_path, class: 'btn btn-mini btn-success'
+      = link_to 'New Classroom', new_classroom_path(office_id: @office.id), class: 'btn btn-mini btn-success'

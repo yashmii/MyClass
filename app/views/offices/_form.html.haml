@@ -3,7 +3,7 @@
 
   .form-inputs
     = f.input :name
-    = f.association :company
+    = f.input :company_id, input_html: {value: @office.company_id || params[:company_id]}, as: :hidden
     = f.input :email
     = f.input :phone_number
     = f.input :address
