@@ -12,9 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+
+//= require best_in_place
 //= require moment.min
 //= require turbolinks
-//= require bootstrap-sprockets
+
 //= require bootstrap/affix
 //= require bootstrap/alert
 //= require bootstrap/button

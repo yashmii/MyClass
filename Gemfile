@@ -45,3 +45,4 @@ gem 'simple_form'
 gem 'carrierwave'
 gem "selectize-rails"
 gem 'ransack'
+gem 'best_in_place'

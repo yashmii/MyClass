@@ -14,7 +14,7 @@
         = @client.cstatus
       %p
         %b First name:
-        = @client.first_name
+        = best_in_place @client, :first_name, :as => :input
       %p
         %b Middle name:
         = @client.middle_name
