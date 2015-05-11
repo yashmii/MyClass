@@ -60,7 +60,7 @@
           - @attendances.each do |attendance|
             %tr
               %td= attendance.attendance
-              %td
+              %td= attendance.lesson.period.tprice.tprice
               %td= attendance.lesson.period.group.group_name
               %td= attendance.lesson.period.PeroidDescription
               %td= attendance.lesson.start_time

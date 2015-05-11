@@ -4,7 +4,8 @@ class LessonsController < ApplicationController
   # GET /lessons
   # GET /lessons.json
   def index
-    @lessons = Lesson.paginate(:page => params[:page], :per_page => 3).order('created_at DESC')
+    @per_page = params[:per_page] || Post.per_page || 20
+    @lessons = Lesson.paginate( :per_page => @per_page, :page => params[:page])
   end
 
   # GET /lessons/1

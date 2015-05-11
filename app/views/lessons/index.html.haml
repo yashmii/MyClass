@@ -28,3 +28,9 @@
           %td= link_to 'Destroy', lesson, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 
   = will_paginate @lessons
+  %br
+    %b total lessons
+    =@lessons.total_entries
+  %br
+    %b lessons per page
+    = select_tag :per_page, options_for_select([3,4,50], params[:per_page].to_i), :onchange => "if(this.value){window.location='?per_page='+this.value;}"
