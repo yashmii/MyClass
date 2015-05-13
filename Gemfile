@@ -47,3 +47,4 @@ gem "selectize-rails"
 gem 'ransack'
 gem 'best_in_place'
 gem 'will_paginate', '~> 3.0.6'
+gem 'devise'

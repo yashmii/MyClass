@@ -23,6 +23,7 @@
           %form.navbar-form.navbar-left
             .btn-group
             = link_to 'Dashboard', dashboard_index_path, class: 'btn btn-mini btn-warning'
+            = link_to 'Log out', destroy_user_session_path, :method => :delete, class: 'btn btn-mini btn-warning'
             .btn-group
               = link_to "Clients", clients_path, class: 'btn btn-mini btn-danger'
               %button.btn.btn-danger.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :type => "button"}
@@ -77,6 +78,9 @@
             .form-group
               %input.form-control{:placeholder => "Client or Group", :type => "text"}
             %button.btn.btn-default{:type => "submit"} Submit
+
+  %p.notice= notice
+  %p.alert= alert
 
   / /.navbar-collapse
   / /.container-fluid
