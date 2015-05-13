@@ -41,3 +41,4 @@
               %td= link_to 'Destroy', client, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
 
   %br
+    =Client.sum(:telephone_1)

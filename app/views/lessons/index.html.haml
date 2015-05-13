@@ -32,5 +32,8 @@
     %b total lessons
     =@lessons.total_entries
   %br
+    = Lesson.count
+    = Lesson.sum(:period_id)
+  %br
     %b lessons per page
     = select_tag :per_page, options_for_select([3,4,50], params[:per_page].to_i), :onchange => "if(this.value){window.location='?per_page='+this.value;}"
