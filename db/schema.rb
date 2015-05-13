@@ -13,68 +13,68 @@
 
 ActiveRecord::Schema.define(version: 20150513094035) do
 
-  create_table "attendances", force: true do |t|
-    t.string   "attendance"
-    t.string   "client_id"
-    t.string   "lesson_id"
+  create_table "attendances", force: :cascade do |t|
+    t.string   "attendance", limit: 255
+    t.string   "client_id",  limit: 255
+    t.string   "lesson_id",  limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "classrooms", force: true do |t|
-    t.string   "name"
+  create_table "classrooms", force: :cascade do |t|
+    t.string   "name",       limit: 255
     t.integer  "office_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "clients", force: true do |t|
-    t.string   "first_name"
-    t.string   "middle_name"
-    t.string   "last_name"
+  create_table "clients", force: :cascade do |t|
+    t.string   "first_name",  limit: 255
+    t.string   "middle_name", limit: 255
+    t.string   "last_name",   limit: 255
     t.date     "birthdate"
     t.integer  "telephone_1"
-    t.string   "email"
-    t.string   "photo"
-    t.string   "office_id"
+    t.string   "email",       limit: 255
+    t.string   "photo",       limit: 255
+    t.string   "office_id",   limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "language_id"
-    t.string   "info"
+    t.string   "info",        limit: 255
     t.integer  "cstatus_id"
   end
 
-  create_table "companies", force: true do |t|
-    t.string   "company_name"
-    t.string   "website"
-    t.string   "phone_number"
-    t.string   "address"
-    t.string   "logo"
+  create_table "companies", force: :cascade do |t|
+    t.string   "company_name", limit: 255
+    t.string   "website",      limit: 255
+    t.string   "phone_number", limit: 255
+    t.string   "address",      limit: 255
+    t.string   "logo",         limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "cstatuses", force: true do |t|
-    t.string   "cstatus"
+  create_table "cstatuses", force: :cascade do |t|
+    t.string   "cstatus",    limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "fullcalendar_engine_event_series", force: true do |t|
-    t.integer  "frequency",  default: 1
-    t.string   "period",     default: "monthly"
+  create_table "fullcalendar_engine_event_series", force: :cascade do |t|
+    t.integer  "frequency",              default: 1
+    t.string   "period",     limit: 255, default: "monthly"
     t.datetime "starttime"
     t.datetime "endtime"
-    t.boolean  "all_day",    default: false
+    t.boolean  "all_day",                default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "fullcalendar_engine_events", force: true do |t|
-    t.string   "title"
+  create_table "fullcalendar_engine_events", force: :cascade do |t|
+    t.string   "title",           limit: 255
     t.datetime "starttime"
     t.datetime "endtime"
-    t.boolean  "all_day",         default: false
+    t.boolean  "all_day",                     default: false
     t.text     "description"
     t.integer  "event_series_id"
     t.datetime "created_at"
@@ -83,12 +83,12 @@ ActiveRecord::Schema.define(version: 20150513094035) do
 
   add_index "fullcalendar_engine_events", ["event_series_id"], name: "index_fullcalendar_engine_events_on_event_series_id"
 
-  create_table "groups", force: true do |t|
-    t.string   "group_name"
-    t.string   "teacher_id"
-    t.string   "office_id"
-    t.string   "book_id"
-    t.string   "days"
+  create_table "groups", force: :cascade do |t|
+    t.string   "group_name",     limit: 255
+    t.string   "teacher_id",     limit: 255
+    t.string   "office_id",      limit: 255
+    t.string   "book_id",        limit: 255
+    t.string   "days",           limit: 255
     t.time     "time"
     t.integer  "duration"
     t.text     "info"
@@ -98,19 +98,19 @@ ActiveRecord::Schema.define(version: 20150513094035) do
     t.integer  "languagelvl_id"
   end
 
-  create_table "languagelvls", force: true do |t|
-    t.string   "langlvl"
+  create_table "languagelvls", force: :cascade do |t|
+    t.string   "langlvl",    limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "languages", force: true do |t|
-    t.string   "lang"
+  create_table "languages", force: :cascade do |t|
+    t.string   "lang",       limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "lessons", force: true do |t|
+  create_table "lessons", force: :cascade do |t|
     t.datetime "start_time"
     t.datetime "end_time"
     t.datetime "created_at"
@@ -120,64 +120,64 @@ ActiveRecord::Schema.define(version: 20150513094035) do
     t.integer  "classroom_id"
   end
 
-  create_table "offices", force: true do |t|
-    t.string   "name"
+  create_table "offices", force: :cascade do |t|
+    t.string   "name",         limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "company_id"
-    t.string   "integer"
-    t.string   "phone_number"
-    t.string   "address"
-    t.string   "email"
+    t.string   "company_id",   limit: 255
+    t.string   "integer",      limit: 255
+    t.string   "phone_number", limit: 255
+    t.string   "address",      limit: 255
+    t.string   "email",        limit: 255
   end
 
-  create_table "periods", force: true do |t|
-    t.string   "PeroidDescription"
+  create_table "periods", force: :cascade do |t|
+    t.string   "PeroidDescription", limit: 255
     t.integer  "group_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "tprice_id"
   end
 
-  create_table "posts", force: true do |t|
-    t.string   "post"
+  create_table "posts", force: :cascade do |t|
+    t.string   "post",       limit: 255
     t.integer  "teacher_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "teachers", force: true do |t|
-    t.string   "first_name"
-    t.string   "middle_name"
-    t.string   "last_name"
+  create_table "teachers", force: :cascade do |t|
+    t.string   "first_name",  limit: 255
+    t.string   "middle_name", limit: 255
+    t.string   "last_name",   limit: 255
     t.date     "birthdate"
     t.integer  "telephone_1"
-    t.string   "email"
-    t.string   "info"
-    t.string   "photo"
+    t.string   "email",       limit: 255
+    t.string   "info",        limit: 255
+    t.string   "photo",       limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "tprices", force: true do |t|
-    t.string   "name"
-    t.string   "tprice"
+  create_table "tprices", force: :cascade do |t|
+    t.string   "name",       limit: 255
+    t.string   "tprice",     limit: 255
     t.boolean  "active"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "users", force: true do |t|
-    t.string   "email",                  default: "", null: false
-    t.string   "encrypted_password",     default: "", null: false
-    t.string   "reset_password_token"
+  create_table "users", force: :cascade do |t|
+    t.string   "email",                  limit: 255, default: "", null: false
+    t.string   "encrypted_password",     limit: 255, default: "", null: false
+    t.string   "reset_password_token",   limit: 255
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,  null: false
+    t.integer  "sign_in_count",                      default: 0,  null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
-    t.string   "current_sign_in_ip"
-    t.string   "last_sign_in_ip"
+    t.string   "current_sign_in_ip",     limit: 255
+    t.string   "last_sign_in_ip",        limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end

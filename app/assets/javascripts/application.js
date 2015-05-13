@@ -15,7 +15,6 @@
 
 //= require best_in_place
 //= require moment.min
-//= require turbolinks
 
 //= require bootstrap/affix
 //= require bootstrap/alert

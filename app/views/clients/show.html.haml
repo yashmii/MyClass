@@ -14,7 +14,7 @@
         = @client.cstatus
       %p
         %b First name:
-        = best_in_place @client, :first_name, :as => :input
+        = best_in_place @client, :first_name, :as => :input, :ok_button => 'Save', :cancel_button => 'Cancel'
       %p
         %b Middle name:
         = @client.middle_name
@@ -32,7 +32,7 @@
         = @client.email
       %p
         %b Info:
-        = @client.info
+        = best_in_place @client, :info, :as => :select, :collection => { es: 'Spain', it: 'Italy', de: 'Germany', fr: 'France' }
       %p
         %b Office:
         = @client.office
