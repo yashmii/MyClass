@@ -4,6 +4,7 @@ class Client < ActiveRecord::Base
   belongs_to :language
   belongs_to :office
   belongs_to :cstatus
+  has_many :crms
 
   def to_s
     first_name+" "+last_name

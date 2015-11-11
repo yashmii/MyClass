@@ -15,6 +15,7 @@
 
 //= require best_in_place
 //= require moment.min
+//= require moment
 
 //= require bootstrap/affix
 //= require bootstrap/alert
@@ -30,3 +31,5 @@
 //= require bootstrap/popover
 //= require selectize
 //= require_tree .
+
+

@@ -76,7 +76,6 @@
               %td= f.input :attendance
               %td= f.select :client_id, Client.all.map{|c| [c, c.id]}, {},class: 'selectize'
               %td= f.input :lesson_id, input_html: {value: @lesson.id}, as: :hidden
-              %td heergregrefr
         .form-actions
           = f.button :submit
 

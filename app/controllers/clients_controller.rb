@@ -14,6 +14,9 @@ class ClientsController < ApplicationController
   # GET /clients/1.json
   def show
     @attendances = @client.attendances
+    @crms = @client.crms
+    @crm = Crm.new
+
   end
 
   # GET /clients/new

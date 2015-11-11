@@ -1,0 +1,11 @@
+= simple_form_for(@crm) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :client_id, input_html: {value: params[:client_id]}, as: :hidden
+    = f.input :info
+    = f.association :teacher
+    = f.datetime_select :time
+
+  .form-actions
+    = f.button :submit
