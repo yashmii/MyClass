@@ -60,6 +60,7 @@
                   = link_to 'New call', new_crm_path(client_id: @client.id)
           #collapseOne.panel-collapse.collapse
             .panel-body
+              = pluralize(@client.crms.size, '- total contact quantity')
               = simple_form_for(@crm) do |f|
                 = f.error_notification
 
