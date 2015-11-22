@@ -28,15 +28,6 @@ ActiveRecord::Schema.define(version: 20151007084830) do
     t.datetime "updated_at"
   end
 
-  create_table "client_relationships", force: :cascade do |t|
-    t.datetime "time"
-    t.string   "info"
-    t.integer  "client_id"
-    t.integer  "teacher_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "clients", force: :cascade do |t|
     t.string   "first_name"
     t.string   "middle_name"
@@ -50,7 +41,6 @@ ActiveRecord::Schema.define(version: 20151007084830) do
     t.datetime "updated_at"
     t.integer  "language_id"
     t.string   "info"
-    t.string   "cstatus"
     t.integer  "cstatus_id"
   end
 
@@ -126,15 +116,6 @@ ActiveRecord::Schema.define(version: 20151007084830) do
     t.string   "phone_number"
     t.string   "address"
     t.string   "email"
-  end
-
-  create_table "payments", force: :cascade do |t|
-    t.integer  "office_id"
-    t.integer  "client_id"
-    t.float    "amount"
-    t.string   "title"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "periods", force: :cascade do |t|

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f491b13-6686-4f7a-af96-0a8260d67a1e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/clients/show.html.haml" afterPath="$PROJECT_DIR$/app/views/clients/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
     </list>
     <ignored path="myclass.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,61 +37,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js">
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.4074073">
+              <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.33275563">
+              <caret line="113" column="21" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="client.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/client.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3321234">
-              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.074074">
+              <caret line="16" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/dashboard/index.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="109" selection-start-line="0" selection-start-column="109" selection-end-line="0" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="109" column="23" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="23" />
+            <state vertical-scroll-proportion="-9.301887">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -108,7 +90,6 @@
       <list>
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/client.rb" />
         <option value="$PROJECT_DIR$/app/models/crm.rb" />
         <option value="$PROJECT_DIR$/app/models/teacher.rb" />
         <option value="$PROJECT_DIR$/app/views/lessons/index.html.haml" />
@@ -126,7 +107,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/dashboard.css.scss" />
         <option value="$PROJECT_DIR$/app/views/teachers/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/clients/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/crms_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/main.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -134,6 +114,9 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/clients/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/clients/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/client.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
@@ -174,7 +157,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,6 +254,7 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,11 +262,44 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="clients/sho&#9;FILE&#9;file://C:/myclass/app/views/clients/show.html.haml&#10;schema&#9;FILE&#9;file://C:/sites/myclass/db/schema.rb&#10;applicat&#9;FILE&#9;file://C:/sites/myclass/app/views/layouts/application.html.haml&#10;gemfi&#9;FILE&#9;file://C:/sites/myclass/Gemfile&#10;das&#9;FILE&#9;file://C:/sites/myclass/app/assets/stylesheets/dashboard.css.scss&#10;application.js&#9;FILE&#9;file://C:/sites/myclass/app/assets/javascripts/application.js&#10;client/in&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/index.html.haml&#10;client.rb&#9;FILE&#9;file://C:/sites/myclass/app/controllers/clients_controller.rb&#10;lessons/_&#9;FILE&#9;file://C:/sites/myclass/app/views/lessons/_form.html.haml&#10;attendance/_&#9;FILE&#9;file://C:/sites/myclass/app/views/attendances/_form.html.haml&#10;attendance/sh&#9;FILE&#9;file://C:/sites/myclass/app/views/attendances/show.html.haml&#10;attendance/sho&#9;FILE&#9;file://C:/sites/myclass/app/views/attendances/show.html.haml&#10;lesson/show&#9;FILE&#9;file://C:/sites/myclass/app/views/lessons/show.html.haml&#10;client_con&#9;FILE&#9;file://C:/sites/myclass/app/controllers/clients_controller.rb&#10;lesson.rb&#9;FILE&#9;file://C:/sites/myclass/app/models/lesson.rb&#10;DASHBO&#9;FILE&#9;file://C:/sites/myclass/app/assets/stylesheets/dashboard.css.scss&#10;main.&#9;FILE&#9;file://C:/sites/myclass/app/assets/javascripts/main.js&#10;calenda&#9;FILE&#9;file://C:/sites/myclass/app/assets/javascripts/fullcalendar.js&#10;routes&#9;FILE&#9;file://C:/sites/myclass/config/routes.rb&#10;appli&#9;FILE&#9;file://C:/sites/myclass/app/views/layouts/application.html.haml&#10;dashboard/in&#9;FILE&#9;file://C:/sites/myclass/app/views/dashboard/index.html.haml&#10;clients/in&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/index.html.haml&#10;teacher/in&#9;FILE&#9;file://C:/sites/myclass/app/views/teachers/index.html.haml&#10;app&#9;FILE&#9;file://C:/sites/myclass/app/assets/stylesheets/application.css.scss&#10;gemf&#9;FILE&#9;file://C:/sites/myclass/Gemfile&#10;applica&#9;FILE&#9;file://C:/sites/myclass/app/views/layouts/application.html.haml&#10;clients/sh&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/show.html.haml&#10;group/in&#9;FILE&#9;file://C:/sites/myclass/app/views/groups/index.html.haml&#10;cstatus/i&#9;FILE&#9;file://C:/sites/myclass/app/views/cstatuses/index.html.haml&#10;a&#9;FILE&#9;file://C:/sites/myclass/app/assets/stylesheets/application.css.scss&#10;clients.j&#9;FILE&#9;file://C:/sites/myclass/app/assets/javascripts/clients.js.coffee&#10;lessons/sh&#9;FILE&#9;file://C:/sites/myclass/app/views/lessons/show.html.haml&#10;ients/in&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/index.html.haml&#10;ients_con&#9;FILE&#9;file://C:/sites/myclass/app/controllers/clients_controller.rb&#10;ients/sh&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/show.html.haml&#10;groups/in&#9;FILE&#9;file://C:/sites/myclass/app/views/groups/index.html.haml&#10;ents/in&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/index.html.haml&#10;attendances/edit&#9;FILE&#9;file://C:/sites/myclass/app/views/attendances/edit.html.haml&#10;sche&#9;FILE&#9;file://C:/sites/myclass/db/schema.rb&#10;tion.ht&#9;FILE&#9;file://C:/sites/myclass/app/views/layouts/application.html.haml&#10;route&#9;FILE&#9;file://C:/sites/myclass/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="schema&#9;FILE&#9;file://C:/sites/myclass/db/schema.rb&#10;client/in&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/index.html.haml&#10;client.r&#9;FILE&#9;file://C:/sites/myclass/app/models/client.rb&#10;seeds.r&#9;FILE&#9;file://C:/sites/myclass/db/seeds.rb&#10;clients/sho&#9;FILE&#9;file://C:/myclass/app/views/clients/show.html.haml&#10;applicat&#9;FILE&#9;file://C:/sites/myclass/app/views/layouts/application.html.haml&#10;gemfi&#9;FILE&#9;file://C:/sites/myclass/Gemfile&#10;das&#9;FILE&#9;file://C:/sites/myclass/app/assets/stylesheets/dashboard.css.scss&#10;application.js&#9;FILE&#9;file://C:/sites/myclass/app/assets/javascripts/application.js&#10;client.rb&#9;FILE&#9;file://C:/sites/myclass/app/controllers/clients_controller.rb&#10;lessons/_&#9;FILE&#9;file://C:/sites/myclass/app/views/lessons/_form.html.haml&#10;attendance/_&#9;FILE&#9;file://C:/sites/myclass/app/views/attendances/_form.html.haml&#10;attendance/sh&#9;FILE&#9;file://C:/sites/myclass/app/views/attendances/show.html.haml&#10;attendance/sho&#9;FILE&#9;file://C:/sites/myclass/app/views/attendances/show.html.haml&#10;lesson/show&#9;FILE&#9;file://C:/sites/myclass/app/views/lessons/show.html.haml&#10;client_con&#9;FILE&#9;file://C:/sites/myclass/app/controllers/clients_controller.rb&#10;lesson.rb&#9;FILE&#9;file://C:/sites/myclass/app/models/lesson.rb&#10;DASHBO&#9;FILE&#9;file://C:/sites/myclass/app/assets/stylesheets/dashboard.css.scss&#10;main.&#9;FILE&#9;file://C:/sites/myclass/app/assets/javascripts/main.js&#10;calenda&#9;FILE&#9;file://C:/sites/myclass/app/assets/javascripts/fullcalendar.js&#10;routes&#9;FILE&#9;file://C:/sites/myclass/config/routes.rb&#10;appli&#9;FILE&#9;file://C:/sites/myclass/app/views/layouts/application.html.haml&#10;dashboard/in&#9;FILE&#9;file://C:/sites/myclass/app/views/dashboard/index.html.haml&#10;clients/in&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/index.html.haml&#10;teacher/in&#9;FILE&#9;file://C:/sites/myclass/app/views/teachers/index.html.haml&#10;app&#9;FILE&#9;file://C:/sites/myclass/app/assets/stylesheets/application.css.scss&#10;gemf&#9;FILE&#9;file://C:/sites/myclass/Gemfile&#10;applica&#9;FILE&#9;file://C:/sites/myclass/app/views/layouts/application.html.haml&#10;clients/sh&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/show.html.haml&#10;group/in&#9;FILE&#9;file://C:/sites/myclass/app/views/groups/index.html.haml&#10;cstatus/i&#9;FILE&#9;file://C:/sites/myclass/app/views/cstatuses/index.html.haml&#10;a&#9;FILE&#9;file://C:/sites/myclass/app/assets/stylesheets/application.css.scss&#10;clients.j&#9;FILE&#9;file://C:/sites/myclass/app/assets/javascripts/clients.js.coffee&#10;lessons/sh&#9;FILE&#9;file://C:/sites/myclass/app/views/lessons/show.html.haml&#10;ients/in&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/index.html.haml&#10;ients_con&#9;FILE&#9;file://C:/sites/myclass/app/controllers/clients_controller.rb&#10;ients/sh&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/show.html.haml&#10;groups/in&#9;FILE&#9;file://C:/sites/myclass/app/views/groups/index.html.haml&#10;ents/in&#9;FILE&#9;file://C:/sites/myclass/app/views/clients/index.html.haml&#10;attendances/edit&#9;FILE&#9;file://C:/sites/myclass/app/views/attendances/edit.html.haml&#10;sche&#9;FILE&#9;file://C:/sites/myclass/db/schema.rb&#10;tion.ht&#9;FILE&#9;file://C:/sites/myclass/app/views/layouts/application.html.haml&#10;route&#9;FILE&#9;file://C:/sites/myclass/config/routes.rb" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Rails.Development: myclass">
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="" />
@@ -322,6 +338,35 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
       <method />
     </configuration>
     <list size="4">
@@ -384,13 +429,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/companies/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9622642">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/events/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -636,20 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5724138">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25247526">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/attendances/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29310346">
@@ -692,35 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="23" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2800659">
           <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,9 +731,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61769354">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87623763">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-2.39783">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -742,8 +757,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3321234">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.14310345">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.074074">
+          <caret line="16" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.301887">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4074073">
+          <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275563">
+          <caret line="113" column="21" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="21" />
           <folding />
         </state>
       </provider>
