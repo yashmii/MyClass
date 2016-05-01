@@ -1,21 +1,22 @@
-%h1 Listing cstatuses
+.container
+  %h1 Listing cstatuses
 
-%table
-  %thead
-    %tr
-      %th Cstatus
-      %th
-      %th
-      %th
-
-  %tbody
-    - @cstatuses.each do |cstatus|
+  %table
+    %thead
       %tr
-        %td= cstatus.cstatus
-        %td= link_to 'Show', cstatus
-        %td= link_to 'Edit', edit_cstatus_path(cstatus)
-        %td= link_to 'Destroy', cstatus, :method => :delete, :data => { :confirm => 'Are you sure?' }
+        %th Cstatus
+        %th
+        %th
+        %th
 
-%br
+    %tbody
+      - @cstatuses.each do |cstatus|
+        %tr
+          %td= cstatus.cstatus
+          %td= link_to 'Show', cstatus
+          %td= link_to 'Edit', edit_cstatus_path(cstatus)
+          %td= link_to 'Destroy', cstatus, :method => :delete, :data => { :confirm => 'Are you sure?' }
 
-= link_to 'New Cstatus', new_cstatus_path
+  %br
+
+  = link_to 'New Cstatus', new_cstatus_path

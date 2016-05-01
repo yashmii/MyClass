@@ -1,0 +1,22 @@
+%p#notice= notice
+
+%p
+  %b Client:
+  = @crm.client
+%p
+  %b Info:
+  = @crm.info
+%p
+  %b Teacher:
+  = @crm.teacher
+%p
+  %b Time:
+  = @crm.time
+
+%br
+
+= link_to 'Edit', edit_crm_path(@crm)
+\|
+= link_to 'Back to client', client_path(@crm.client), class: 'btn btn-mini btn-warning'
+\|
+= link_to 'Back to all calls', crms_path, class: 'btn btn-mini btn-warning'

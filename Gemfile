@@ -20,6 +20,9 @@ gem 'will_paginate', '~> 3.0.6'
 
 gem 'devise'
 
+gem 'rjv'
+gem 'momentjs-rails'
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :development, :test do
@@ -33,3 +36,5 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+gem 'rjv'

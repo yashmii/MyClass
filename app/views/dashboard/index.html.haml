@@ -1,14 +1,186 @@
-.container
-  .row
-    .col-md-4
-      %h1 What to do?
-      .add-post
-        = simple_form_for(@post) do |f|
-          = f.input :post
-          .form-actions
-            = f.button :submit
-    .col-md-8
-      %h1 To-do list
+- set_var 'events', @lessons.map{|e| {title: e.teacher_id, start: e.start_time, end: e.end_time, url: lesson_path(e)}}
+
+.container-fluid.text-center
+  / Button trigger modal
+  %button.btn.btn-success.btn-lg{"data-target" => "#myModal", "data-toggle" => "modal", :type => "button"}
+    Select a program for your needs
+  / Modal
+  #myModal.modal.fade.bs-example-modal-lg{"aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
+    .modal-dialog.modal-lg{:role => "document"}
+      .modal-content
+        .modal-header
+          %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+            %span{"aria-hidden" => "true"} &times;
+          %h3#myModalLabel.modal-title Select a program for your needs
+        .modal-body
+          .text-center.h4
+            What age group does the student belong to?
+          .col-md-12
+            .col-md-6
+              #accordion.panel-group
+              .panel.panel-default
+                .panel-heading
+                  %h4.panel-title
+                    %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapse1-1"}
+                      .text-center
+                        .glyphicon.glyphicon-cloud-download
+                        %br
+                          4-8 years old
+                #collapse1-1.panel-collapse.collapse
+                  .panel-body
+                    What do you want to learn?
+                    #accordion.panel-group
+                    .panel.panel-default
+                      .panel-heading
+                        %h4.panel-title.text-center
+                          %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapse1-2-1"}
+                            English
+                      #collapse1-2-1.panel-collapse.collapse
+                        .panel-body
+                          infotext1-2
+                          %br
+                          .text-center
+                            For adults
+                          %table.table.table-hover.table-condensed.table-responsive.text-center
+                            %thread
+                              %tr
+                                %th
+                                %th.success.text-center Group
+                                %th.danger.text-center Individual
+                            %tbody
+                              %tr
+                                %td Abonement Abonement Abonement
+                                %td.success 320 Abonement Abonement
+                                %td.danger -
+                              %tr
+                                %td 21
+                                %td.success 21
+                                %td.danger 23
+                          .text-center
+                            = link_to 'Sign up', new_crm_path, class: 'btn btn-mini btn-success'
+                    #accordion.panel-group
+                    .panel.panel-default
+                      .panel-heading
+                        %h4.panel-title.text-center
+                          %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapse1-2-2"}
+                            Deutsch
+                      #collapse1-2-2.panel-collapse.collapse
+                        .panel-body
+                          infotext1-2
+
+            .col-md-6
+              #accordion.panel-group
+              .panel.panel-default
+                .panel-heading
+                  %h4.panel-title
+                    %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapse1-2"}
+                      .text-center
+                        .glyphicon.glyphicon-cloud-download
+                        %br
+                          9-12 years old
+                #collapse1-2.panel-collapse.collapse
+                  .panel-body
+                    What do you want to learn?
+                    #accordion.panel-group
+                    .panel.panel-default
+                      .panel-heading
+                        %h4.panel-title.text-center
+                          %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapse2-1-1"}
+                            ZNOhome
+                      #collapse2-1-1.panel-collapse.collapse
+                        .panel-body
+                          infotext1-2
+                          %br
+                          .text-center
+                            For adults
+                          %table.table.table-hover.table-condensed.table-responsive.text-center
+                            %thread
+                              %tr
+                                %th
+                                %th.success.text-center Group
+                                %th.danger.text-center Individual
+                            %tbody
+                              %tr
+                                %td Abonement Abonement Abonement
+                                %td.success 320 Abonement Abonement
+                                %td.danger -
+                              %tr
+                                %td 21
+                                %td.success 21
+                                %td.danger 23
+                          .text-center
+                            = link_to 'Sign up', new_crm_path, class: 'btn btn-mini btn-success'
+                    #accordion.panel-group
+                    .panel.panel-default
+                      .panel-heading
+                        %h4.panel-title.text-center
+                          %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapse2-1-2"}
+                            Deutsch
+                      #collapse2-1-2.panel-collapse.collapse
+                        .panel-body
+                          infotext1-2
+          .col-md-12
+            .col-md-6
+              #accordion.panel-group
+              .panel.panel-default
+                .panel-heading
+                  %h4.panel-title
+                    %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapse1-3"}
+                      .text-center
+                        .glyphicon.glyphicon-cloud-download
+                        %br
+                          13-17 years old
+                #collapse1-3.panel-collapse.collapse
+                  .panel-body
+                    infotext1-2
+
+            .col-md-6
+              #accordion.panel-group
+              .panel.panel-default
+                .panel-heading
+                  %h4.panel-title
+                    %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapse1-4"}
+                      .text-center
+                        .glyphicon.glyphicon-cloud-download
+                        %br
+                          Students & adults
+                #collapse1-4.panel-collapse.collapse
+                  .panel-body
+                    infotext1-2
+
+        .modal-footer
+          %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} Close
+          %button.btn.btn-primary{:type => "button"} Save changes
+%p
+
+
+
+.container-fluid
+  .well
+    .row
+      .col-md-6
+        %h1 To-do list
+      .col-md-6
+        .pull-right
+          / Button trigger modal
+          %button.btn.btn-primary.btn-lg{"data-target" => "#myModal1", "data-toggle" => "modal", :type => "button"}
+            Add task
+          / Modal
+          #myModal1.modal.fade{"aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
+            .modal-dialog{:role => "document"}
+              .modal-content
+                .modal-header
+                  %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+                    %span{"aria-hidden" => "true"} &times;
+                  %h4#myModalLabel.modal-title Set a task
+                .modal-body
+                  .add-post
+                    = simple_form_for(@post) do |f|
+                      = f.input :post
+                      .form-actions
+                        = f.button :submit, class: 'btn btn-mini btn-success'
+                        %p
+                    %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} Close
 
       %table.table.table-hover.table-condensed.table-responsive
         %thead
@@ -24,12 +196,20 @@
             %tr
               %td= post.post
               %td= post.created_at
-              %td= link_to 'Show', post, class: 'btn btn-mini btn-success'
-              %td= link_to 'Edit', edit_post_path(post), class: 'btn btn-mini btn-warning'
-              %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
-      %div#calendar
+              %td= link_to '', post, class: 'btn btn-mini btn-success glyphicon glyphicon-search'
+              %td= link_to '', edit_post_path(post), class: 'btn btn-mini btn-warning glyphicon glyphicon-pencil'
+              %td= link_to '', post, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger glyphicon glyphicon-trash'
+%p
+  = link_to 'Alice', client_path(:id => "2")
+%br
+.container
+  .row
+    .dl
+      Twitter, Inc.
+    .dt
+      asd
+      1355 Market Street, Suite 900
 
 
-
-  %h1
-    = link_to 'Alice', client_path(:id => "2")
+.container
+  %div#calendar

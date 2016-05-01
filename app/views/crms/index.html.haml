@@ -1,0 +1,27 @@
+%h1 Listing crms
+
+%table.table.table-hover.table-condensed.table-responsive
+  %thead
+    %tr
+      %th Client
+      %th Info
+      %th Teacher
+      %th Time
+      %th
+      %th
+      %th
+
+  %tbody
+    - @crms.each do |crm|
+      %tr
+        %td= crm.client
+        %td= crm.info
+        %td= crm.teacher
+        %td= crm.time
+        %td= link_to 'Show', crm
+        %td= link_to 'Edit', edit_crm_path(crm)
+        %td= link_to 'Destroy', crm, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Crm', new_crm_path

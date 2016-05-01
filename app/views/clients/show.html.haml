@@ -1,68 +1,134 @@
 .container
   .row
     .col-md-4
-      %h1 Client info
-      %p#notice= notice
-      %p
-        = image_tag @client.photo, size: '190x190', class: 'img-circle'
-      %p
-        = link_to 'Edit', edit_client_path(@client), class: 'btn btn-mini btn-warning'
-        \|
-        = link_to 'Back', clients_path, class: 'btn btn-mini btn-warning'
-      %p
-        %b Status:
-        = @client.cstatus
-      %p
-        %b First name:
-        = best_in_place @client, :first_name, :as => :input, :ok_button => 'Save', :cancel_button => 'Cancel'
-      %p
-        %b Middle name:
-        = @client.middle_name
-      %p
-        %b Last name:
-        = @client.last_name
-      %p
-        %b Birthdate:
-        = @client.birthdate
-      %p
-        %b Telephone 1:
-        = @client.telephone_1
-      %p
-        %b Email:
-        = @client.email
-      %p
-        %b Info:
-        = best_in_place @client, :info, :as => :select, :collection => { es: 'Spain', it: 'Italy', de: 'Germany', fr: 'France' }
-      %p
-        %b Office:
-        = @client.office
-      %p
-        %b Language:
-        = @client.language
       = link_to 'Previous client', client_path(@client.id - 1)
       \|
       = link_to 'Next client', client_path(@client.id + 1)
+      #accordion.panel-group
+        .panel.panel-default
+          .panel-heading
+            %h4.panel-title
+              %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapseFour"}
+                Client info
+          #collapseFour.panel-collapse.collapse.in
+            .panel-body
+              %p#notice= notice
+              %p
+                = image_tag @client.photo, size: '190x190', class: 'img-circle'
+              %p
+                = link_to 'Edit', edit_client_path(@client), class: 'btn btn-mini btn-warning'
+                \|
+                = link_to 'Back', clients_path, class: 'btn btn-mini btn-warning'
+              %p
+                %b Status:
+                = @client.cstatus
+              %p
+                %b First name:
+                = best_in_place @client, :first_name, :as => :input, :ok_button => 'Save', :cancel_button => 'Cancel'
+              %p
+                %b Middle name:
+                = @client.middle_name
+              %p
+                %b Last name:
+                = @client.last_name
+              %p
+                %b Birthdate:
+                = @client.birthdate
+              %p
+                %b Telephone 1:
+                = @client.telephone_1
+              %p
+                %b Email:
+                = @client.email
+              %p
+                %b Info:
+                = best_in_place @client, :info, :as => :select, :collection => { es: 'Spain', it: 'Italy', de: 'Germany', fr: 'France' }
+              %p
+                %b Office:
+                = @client.office
+              %p
+                %b Language:
+                = @client.language
     .col-md-8
-      %h1 Payments and balance
-      %h1 Attendances
-      %table.table.table-hover.table-condensed.table-responsive
-        %thead
-          %tr
-            %th Attendance
-            %th Cprice
-            %th Group
-            %th Period
-            %th Lesson
-            %th
-            %th
+      #accordion.panel-group
+        .panel.panel-default
+          .panel-heading
+            %h4.panel-title
+              %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapseOne"}
+                Call & communication history
+                .pull-right
+                  = link_to 'New call', new_crm_path(client_id: @client.id)
+          #collapseOne.panel-collapse.collapse
+            .panel-body
+              = pluralize(@client.crms.size, '- total contact quantity')
+              = simple_form_for(@crm) do |f|
+                = f.error_notification
 
-        %tbody
-          - @attendances.each do |attendance|
-            %tr
-              %td= attendance.attendance
-              %td= attendance.lesson.period.tprice.tprice
-              %td= attendance.lesson.period.group.group_name
-              %td= attendance.lesson.period.PeroidDescription
-              %td= attendance.lesson.start_time
-              %td= link_to 'Edit', edit_attendance_path(attendance, lesson_id: attendance.lesson_id), class: 'btn btn-mini btn-warning'
-              %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'
+                .form-inputs
+                  = f.input :client_id, input_html: {value: @client.id}, as: :hidden
+                  = f.input :info
+                  = f.association :teacher
+                  = f.datetime_select :time
+                %br
+                .form-actions
+                  = f.button :submit, class: 'btn btn-mini btn-success'
+
+
+              %table.table.table-hover.table-condensed.table-responsive
+                %thead
+                  %tr
+                    %th Info
+                    %th Teacher
+                    %th Time
+                    %th
+                    %th
+                    %th
+
+                %tbody
+                  - @crms.each do |crm|
+                    %tr
+                      %td= crm.info
+                      %td= crm.teacher
+                      %td= crm.time
+                      %td= link_to 'Show', crm
+                      %td= link_to 'Edit', edit_crm_path(crm)
+                      %td= link_to 'Destroy', crm, :method => :delete, :data => { :confirm => 'Are you sure?' }
+        .panel.panel-default
+          .panel-heading
+            %h4.panel-title
+              %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapseTwo"}
+                Payments and balance
+                .pull-right
+                  linkToNewPaymentHere!!
+          #collapseTwo.panel-collapse.collapse
+            .panel-body
+              2
+              %span.glyphicon.glyphicon-star
+        .panel.panel-default
+          .panel-heading
+            %h4.panel-title
+              %a.accordion-toggle{"data-toggle" => "collapse", :href => "#collapseThree"}
+                Attendances
+          #collapseThree.panel-collapse.collapse
+            .panel-body
+              %table.table.table-hover.table-condensed.table-responsive
+                %thead
+                  %tr
+                    %th Attendance
+                    %th Cprice
+                    %th Group
+                    %th Period
+                    %th Lesson
+                    %th
+                    %th
+
+                %tbody
+                  - @attendances.each do |attendance|
+                    %tr
+                      %td= attendance.attendance
+                      %td= attendance.lesson.period.tprice.tprice
+                      %td= attendance.lesson.period.group.group_name
+                      %td= attendance.lesson.period.PeroidDescription
+                      %td= attendance.lesson.start_time
+                      %td= link_to 'Edit', edit_attendance_path(attendance, lesson_id: attendance.lesson_id), class: 'btn btn-mini btn-warning'
+                      %td= link_to 'Destroy', attendance, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: 'btn btn-mini btn-danger'

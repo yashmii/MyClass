@@ -14,6 +14,8 @@ Rails.application.routes.draw do root :to => 'dashboard#index'
   resources :posts
   resources :tprices
   resources :cstatuses
+  resources :events
+  resources :crms
 
 
   # The priority is based upon order of creation: first created -> highest priority.
